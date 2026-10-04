@@ -1,0 +1,4152 @@
+{
+  "WEAPON_CLASSES": {
+    "AAM": {
+      "A-91": {
+        "weight_kg": 75.3,
+        "drag_kgf": 0.01,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AA-20 Nord": {
+        "weight_kg": 133.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "MCLOS"
+        ]
+      },
+      "AAM-3": {
+        "weight_kg": 91.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AAM-4": {
+        "weight_kg": 222.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "AIM-120A": {
+        "weight_kg": 147.87,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "AIM-120B": {
+        "weight_kg": 147.87,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "AIM-120C-5": {
+        "weight_kg": 161.48,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "AIM-120D": {
+        "weight_kg": 162.39,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "GNSS",
+          "DL"
+        ]
+      },
+      "AIM-4F Super Falcon": {
+        "weight_kg": 68.92,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "AIM-4G Super Falcon": {
+        "weight_kg": 66.22,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AIM-54A Phoenix": {
+        "weight_kg": 443.61,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "AIM-54C Phoenix": {
+        "weight_kg": 463.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "AIM-54C+": {
+        "weight_kg": 446.79,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "AIM-7C": {
+        "weight_kg": 172.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "AIM-7D ": {
+        "weight_kg": 182.34,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "AIM-7E ": {
+        "weight_kg": 205.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "AIM-7E-2": {
+        "weight_kg": 193.7,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "AIM-7F": {
+        "weight_kg": 231.33,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "AIM-7M": {
+        "weight_kg": 231.33,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "AIM-7P": {
+        "weight_kg": 231.33,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "AIM-9B": {
+        "weight_kg": 72.57,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AIM-9B FGW.2": {
+        "weight_kg": 77.55,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AIM-9C": {
+        "weight_kg": 95.02,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "AIM-9D": {
+        "weight_kg": 88.45,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AIM-9E": {
+        "weight_kg": 76.43,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AIM-9G": {
+        "weight_kg": 88.45,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AIM-9H": {
+        "weight_kg": 88.45,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AIM-9J": {
+        "weight_kg": 76.93,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AIM-9L": {
+        "weight_kg": 84.46,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AIM-9L/I": {
+        "weight_kg": 84.46,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AIM-9L/I-1": {
+        "weight_kg": 84.46,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AIM-9M": {
+        "weight_kg": 84.64,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AIM-9N": {
+        "weight_kg": 76.93,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AIM-9P": {
+        "weight_kg": 76.93,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AIM-9P-4": {
+        "weight_kg": 76.93,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "Aspide-1A": {
+        "weight_kg": 230.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "Derby": {
+        "weight_kg": 118.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "Fakour-90": {
+        "weight_kg": 637.3,
+        "drag_kgf": 0.18,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "Fireflash": {
+        "weight_kg": 150.0,
+        "drag_kgf": 0.25,
+        "guidance": [
+          "SACLOS"
+        ]
+      },
+      "Firestreak": {
+        "weight_kg": 136.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "Flz Lwf 63": {
+        "weight_kg": 72.57,
+        "drag_kgf": 0.18,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "Flz Lwf 63/80": {
+        "weight_kg": 76.93,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "Flz Lwf LL 63/75 SIWA": {
+        "weight_kg": 76.43,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "Flz Lwf LL 64/79 FALCO": {
+        "weight_kg": 117.31,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "Flz Lwl LL 97 AMRAAM": {
+        "weight_kg": 147.87,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "Flz Lwl LL 97 AMRAAM 120C-5": {
+        "weight_kg": 161.48,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "MAA-1 Piranha": {
+        "weight_kg": 90.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "Matra R511": {
+        "weight_kg": 172.5,
+        "drag_kgf": 0.015,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "Matra R530": {
+        "weight_kg": 193.5,
+        "drag_kgf": 0.015,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "Matra R530E": {
+        "weight_kg": 193.5,
+        "drag_kgf": 0.015,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "Matra R550 Magic 1": {
+        "weight_kg": 89.0,
+        "drag_kgf": 0.015,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "Matra R550 Magic 2": {
+        "weight_kg": 89.0,
+        "drag_kgf": 0.015,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "Matra R551": {
+        "weight_kg": 172.5,
+        "drag_kgf": 0.015,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "Matra Super 530D": {
+        "weight_kg": 270.0,
+        "drag_kgf": 0.015,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "Matra Super 530F": {
+        "weight_kg": 245.0,
+        "drag_kgf": 0.015,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "MICA-EM": {
+        "weight_kg": 112.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "PL-12": {
+        "weight_kg": 198.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "PL-12A": {
+        "weight_kg": 214.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "GNSS",
+          "DL"
+        ]
+      },
+      "PL-2": {
+        "weight_kg": 75.3,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "PL-5B": {
+        "weight_kg": 84.5,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "PL-5C": {
+        "weight_kg": 84.5,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "PL-5EII": {
+        "weight_kg": 83.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "PL-7": {
+        "weight_kg": 89.0,
+        "drag_kgf": 0.015,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "PL-8": {
+        "weight_kg": 121.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "PL-8B": {
+        "weight_kg": 121.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "Python 3": {
+        "weight_kg": 121.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "R-13M1": {
+        "weight_kg": 90.6,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "R-23R": {
+        "weight_kg": 223.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "R-23T": {
+        "weight_kg": 215.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "R-24R": {
+        "weight_kg": 244.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH",
+          "IOG"
+        ]
+      },
+      "R-24T": {
+        "weight_kg": 237.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "R-27ER": {
+        "weight_kg": 350.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "R-27ER1": {
+        "weight_kg": 350.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "R-27ET": {
+        "weight_kg": 343.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "R-27ET1": {
+        "weight_kg": 343.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "R-27R": {
+        "weight_kg": 253.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "R-27R1": {
+        "weight_kg": 253.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "R-27T": {
+        "weight_kg": 245.5,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "R-27T1": {
+        "weight_kg": 343.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "R-3R": {
+        "weight_kg": 75.3,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "R-3S": {
+        "weight_kg": 75.3,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "R-40RD": {
+        "weight_kg": 465.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH",
+          "IOG"
+        ]
+      },
+      "R-40TD": {
+        "weight_kg": 465.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "R-60": {
+        "weight_kg": 43.5,
+        "drag_kgf": 0.015,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "R-60M": {
+        "weight_kg": 44.0,
+        "drag_kgf": 0.015,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "R-60MK": {
+        "weight_kg": 44.0,
+        "drag_kgf": 0.015,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "R-73": {
+        "weight_kg": 105.0,
+        "drag_kgf": 0.015,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "R-73E": {
+        "weight_kg": 105.0,
+        "drag_kgf": 0.015,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "R-77": {
+        "weight_kg": 175.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "R-77-1": {
+        "weight_kg": 190.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "RB27": {
+        "weight_kg": 117.31,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "RB28": {
+        "weight_kg": 59.87,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "RB 74": {
+        "weight_kg": 84.46,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "RB 74(M)": {
+        "weight_kg": 84.46,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "RB 99": {
+        "weight_kg": 147.87,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "RB24": {
+        "weight_kg": 72.57,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "RB24J": {
+        "weight_kg": 76.93,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "RB71 (Dogfight)": {
+        "weight_kg": 193.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "Red Top": {
+        "weight_kg": 167.83,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "RVV-AE": {
+        "weight_kg": 175.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "RVV-SD": {
+        "weight_kg": 190.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "SD-10(A)": {
+        "weight_kg": 198.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "DL"
+        ]
+      },
+      "Sedjeel": {
+        "weight_kg": 625.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "Shafrir": {
+        "weight_kg": 65.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "Shafrir 2": {
+        "weight_kg": 90.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "Skyflash (Dogfight)": {
+        "weight_kg": 193.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "Skyflash SuperTEMP": {
+        "weight_kg": 208.2,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "SARH"
+        ]
+      },
+      "SRAAM": {
+        "weight_kg": 70.0,
+        "drag_kgf": 0.014,
+        "guidance": [
+          "IR"
+        ]
+      }
+    },
+    "ASM": {
+      "AGM-119A Penguin": {
+        "weight_kg": 370.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "IR",
+          "IOG"
+        ]
+      },
+      "AGM-84D Harpoon": {
+        "weight_kg": 549.15,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "ARH",
+          "IOG"
+        ]
+      },
+      "AS.34 Kormoran": {
+        "weight_kg": 600.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "AS.34 Kormoran II": {
+        "WEIGHT_KG": 630.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "ARH",
+          "IOG"
+        ]
+      },
+      "ASM-1": {
+        "weight_kg": 600.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "ARH",
+          "IOG"
+        ]
+      },
+      "ASM-2": {
+        "weight_kg": 528.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "ARH",
+          "IOG"
+        ]
+      },
+      "ASM-3": {
+        "weight_kg": 940.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "Exocet AM39 Block 2": {
+        "weight_kg": 670.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "ARH",
+          "IOG"
+        ]
+      },
+      "Kh-31A": {
+        "weight_kg": 610.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "ARH",
+          "IOG"
+        ]
+      },
+      "Kh-31AD": {
+        "weight_kg": 715.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "ARH",
+          "IOG"
+        ]
+      },
+      "Kh-35U": {
+        "weight_kg": 550.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "Kh-35UE": {
+        "weight_kg": 550.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "ARH",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "Kh-59MK": {
+        "weight_kg": 930.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "ARH",
+          "IOG"
+        ]
+      },
+      "Kh-59MKE": {
+        "weight_kg": 930.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "ARH",
+          "IOG"
+        ]
+      },
+      "RB 15F": {
+        "weight_kg": 565.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "ARH",
+          "IOG"
+        ]
+      },
+      "MBDA Sea Eagle": {
+        "weight_kg": 588.0,
+        "drag_kgf": 0.03,
+        "guidance": [
+          "ARH",
+          "IOG"
+        ]
+      },
+      "YJ-81(k)": {
+        "weight_kg": 610.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "ARH",
+          "IOG"
+        ]
+      },
+      "YJ-83K": {
+        "weight_kg": 670.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "ARH",
+          "IOG"
+        ]
+      },
+      "YJ-91": {
+        "weight_kg": 610,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "ARH",
+          "IOG"
+        ]
+      }
+    },
+    "AGM": {
+      "AGM-123 Skipper": {
+        "weight_kg": 580.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "AGM-12B Bullpup": {
+        "weight_kg": 259.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "MCLOS"
+        ]
+      },
+      "AGM-12C Bullpup": {
+        "weight_kg": 810.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "MCLOS"
+        ]
+      },
+      "AGM-130A-12": {
+        "weight_kg": 1323.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "IR",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "AGM-62A Walleye I": {
+        "weight_kg": 505.53,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "AGM-62A Walleye I ER": {
+        "weight_kg": 510.3,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "AGM-62A Walleye II ER/DL": {
+        "weight_kg": 1061.41,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "AGM-65B": {
+        "weight_kg": 210.47,
+        "drag_kgf": 0.0035,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "AGM-65D": {
+        "weight_kg": 226.8,
+        "drag_kgf": 0.0035,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AGM-65E": {
+        "weight_kg": 291.21,
+        "drag_kgf": 0.0035,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "AGM-65E2": {
+        "weight_kg": 291.21,
+        "drag_kgf": 0.0035,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "AGM-65F": {
+        "weight_kg": 303.45,
+        "drag_kgf": 0.0035,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AGM-65G": {
+        "weight_kg": 303.45,
+        "drag_kgf": 0.0035,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "AGM-65H": {
+        "weight_kg": 226.8,
+        "drag_kgf": 0.0035,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "AGM-65L": {
+        "weight_kg": 291.21,
+        "drag_kgf": 0.0035,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "AGM-84H": {
+        "weight_kg": 668.1,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "IR",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "AJ.168": {
+        "weight_kg": 550.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "AS-20 Nord": {
+        "weight_kg": 143.8,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "MCLOS"
+        ]
+      },
+      "AS-30 Nord": {
+        "weight_kg": 520.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "MCLOS"
+        ]
+      },
+      "AS-30L Nord": {
+        "weight_kg": 520.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "Laser",
+          "IOG"
+        ]
+      },
+      "Delilah": {
+        "weight_kg": 187.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "Delilah (IR)": {
+        "weight": 187.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "IR",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "Flz Lwf LB 82": {
+        "weight_kg": 210.47,
+        "drag_kgf": 0.0035,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "KD-88": {
+        "weight_kg": 710.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV",
+          "IOG"
+        ]
+      },
+      "KD-88A": {
+        "weight_kg": 710.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "IR",
+          "IOG"
+        ]
+      },
+      "Kh-23M": {
+        "weight_kg": 289.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "MCLOS"
+        ]
+      },
+      "Kh-25": {
+        "weight_kg": 318.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "Kh-25ML": {
+        "weight_kg": 297.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "Kh-29L": {
+        "weight_kg": 657.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "Kh-29T": {
+        "weight_kg": 670.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "Kh-29TD": {
+        "weight_kg": 686.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "Kh-29TE": {
+        "weight_kg": 690.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "Kh-38ML": {
+        "weight_kg": 520.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "Kh-38MLE": {
+        "weight_kg": 520.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "Kh-38MT": {
+        "weight_kg": 520.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "IR",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "Kh-38MTE": {
+        "weight_kg": 520.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "IR",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "Kh-59M": {
+        "weight_kg": 930.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV",
+          "IOG"
+        ]
+      },
+      "Kh-59ME": {
+        "weight_kg": 930.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV",
+          "IOG"
+        ]
+      },
+      "Kh-66": {
+        "weight_kg": 278.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "SACLOS"
+        ]
+      },
+      "RB 75": {
+        "weight_kg": 210.47,
+        "drag_kgf": 0.0035,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "RB 75T": {
+        "weight_kg": 296.65,
+        "drag_kgf": 0.0035,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "Rb05A": {
+        "weight_kg": 305.0,
+        "drag_kgf": 0.02,
+        "guidance": [
+          "MCLOS"
+        ]
+      },
+      "S-25L": {
+        "weight_kg": 410.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "S-25LD": {
+        "weight_kg": 410.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "AGM-154A1 JSOW": {
+        "weight_kg": 497.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "9K127 Vikhir": {
+        "weight_kg": 47.0,
+        "drag_kgf": 0.0032,
+        "guidance": [
+          "Beam riding"
+        ]
+      }
+    },
+    "ARM": {
+      "AGM-122" : {
+        "weight_kg": 95.25,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "PRH"
+        ]
+      },
+      "AGM-45B-9": {
+        "weight_kg": 192.32,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH"
+        ]
+      },
+      "AGM-45B-10": {
+        "weight_kg": 192.32,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH"
+        ]
+      },
+      "AGM-88C HARM": {
+        "weight_kg": 362.87,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH",
+          "IOG"
+        ]
+      },
+      "AGM-88A HARM": {
+        "weight_kg": 362.87,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH",
+          "IOG"
+        ]
+      },
+      "AGM-88G AARGM-ER": {
+        "weight_kg": 467.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "ALARM": {
+        "weight_kg": 265.0,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "PRH",
+          "IOG"
+        ]
+      },
+      "AS-37 ARMAT": {
+        "weight_kg": 532.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH"
+        ]
+      },
+      "Delilah (ARM)": {
+        "weight_kg": 187.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH",
+          "IOG"
+        ]
+      },
+      "Kh-25MPU": {
+        "weight_kg": 319.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH",
+          "IOG"
+        ]
+      },
+      "Kh-27PS": {
+        "weight_kg": 311,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH"
+        ]
+      },
+      "Kh-31P L-111": {
+        "weight_kg": 600,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH"
+        ]
+      },
+      "Kh-31P L-112": {
+        "weight_kg": 600,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH"
+        ]
+      },
+      "Kh-31P L-113": {
+        "weight_kg": 600,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH"
+        ]
+      },
+      "Kh-31PD": {
+        "weight_kg": 715.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH",
+          "IOG"
+        ]
+      },
+      "Kh-58U A'": {
+        "weight_kg": 640.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH"
+        ]
+      },
+      "Kh-58U B": {
+        "weight_kg": 640.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH"
+        ]
+      },
+      "Kh-58U C": {
+        "weight_kg": 640.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH"
+        ]
+      },
+      "Kh-58USh": {
+        "weight_kg": 650.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH",
+          "IOG"
+        ]
+      },
+      "Kh-58UShK": {
+        "weight_kg": 650.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH",
+          "IOG"
+        ]
+      },
+      "Kh-58UShKE": {
+        "weight_kg": 650.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH",
+          "IOG"
+        ]
+      },
+      "LD-10": {
+        "weight_kg": 234,
+        "drag_kgf": 0.018,
+        "guidance": [
+          "PRH",
+          "IOG"
+        ]
+      },
+      "YJ-91A": {
+        "weight_kg": 600,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH"
+        ]
+      },
+      "YJ-91 L111": {
+        "weight_kg": 600,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH"
+        ]
+      },
+      "YJ-91 L112": {
+        "weight_kg": 600,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH"
+        ]
+      },
+      "YJ-91 L113": {
+        "weight_kg": 600,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH"
+        ]
+      },
+      "CM-102": {
+        "weight_kg": 350,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "PRH",
+          "IOG"
+        ]
+      }
+    },
+    "BOMBS_LOW_DRAG": {
+      "100 kg 100-2": {
+        "weight_kg": 140.0,
+        "drag_kgf": 0.04
+      },
+      "100 kg FAB-100M": {
+        "weight_kg": 103.5,
+        "drag_kgf": 0.04
+      },
+      "100 kg FAB-100M-43": {
+        "weight_kg": 103.5,
+        "drag_kgf": 0.04
+      },
+      "100 kg OFAB-100": {
+        "weight_kg": 227.0,
+        "drag_kgf": 0.25
+      },
+      "100 kg OFAB-100MB": {
+        "weight_kg": 114.0,
+        "drag_kgf": 0.04
+      },
+      "100 lb AN-M30A1": {
+        "weight_kg": 50.0,
+        "drag_kgf": 0.007
+      },
+      "100/50 kg G.P.": {
+        "weight_kg": 134.0,
+        "drag_kgf": 0.01
+      },
+      "1000 H.E. M.C. Mk.13": {
+        "weight_kg": 486.0,
+        "drag_kgf": 0.042
+      },
+      "1000 kg FAB-1000M-46": {
+        "weight_kg": 1077.0,
+        "drag_kgf": 0.134
+      },
+      "1000 kg SC1000L2": {
+        "weight_kg": 1000.0,
+        "drag_kgf": 0.134
+      },
+      "1000 lb AN-M65A1": {
+        "weight_kg": 500.76,
+        "drag_kgf": 0.042
+      },
+      "1000 lb AN-M65A1 Fin M129": {
+        "weight_kg": 500.76,
+        "drag_kgf": 0.042
+      },
+      "1000 lb G.P. Mk.I": {
+        "weight_kg": 468.7,
+        "drag_kgf": 0.042
+      },
+      "1000 lb H.E. M.C. Mk.13": {
+        "weight_kg": 486.0,
+        "drag_kgf": 0.042
+      },
+      "1000 lb L.D. H.E. M.C. Mk.I": {
+        "weight_kg": 453.6,
+        "drag_kgf": 0.042
+      },
+      "1000 lb LDGP Mk 83": {
+        "weight_kg": 446.8,
+        "drag_kgf": 0.042
+      },
+      "1000 lb M.C. Mk.I": {
+        "weight_kg": 474.4,
+        "drag_kgf": 0.042
+      },
+      "1000 lb M.C. Mk.II": {
+        "weight_kg": 463.1,
+        "drag_kgf": 0.042
+      },
+      "1000 lb SAMP Mk 83": {
+        "weight_kg": 446.8,
+        "drag_kgf": 0.042
+      },
+      "120 kg sb m/61": {
+        "weight_kg": 120,
+        "drag_kgf": 0.04
+      },
+      "1500 kg 1500-2": {
+        "weight_kg": 1447,
+        "drag_kgf": 0.134
+      },
+      "1500 kg FAB-1500M-46": {
+        "weight_kg": 1400,
+        "drag_kgf": 0.63
+      },
+      "1500 kg FAB-1500M-54": {
+        "weight_kg": 1550,
+        "drag_kgf": 0.134
+      },
+      "1600 kg PC1600": {
+        "weight_kg": 1600,
+        "drag_kgf": 0.097
+      },
+      "200 kg Sprengbombe": {
+        "weight_kg": 200,
+        "drag_kgf": 0.0257
+      },
+      "2000 lb SAMP Type Mk 84": {
+        "weight_kg": 893.6,
+        "drag_kgf": 0.0793
+      },
+      "2000 lb AN-M66A2": {
+        "weight_kg": 996.3,
+        "drag_kgf": 0.0793
+      },
+      "2000 lb LDGP Mk 84": {
+        "weight_kg": 893.6,
+        "drag_kgf": 0.0793
+      },
+      "2000 lb SAMP Mk 84": {
+        "weight_kg": 893.6,
+        "drag_kgf": 0.0793
+      },
+      "230 kg BAFG-230": {
+        "weight_kg": 248,
+        "drag_kgf": 0.0257
+      },
+      "250 kg 250-2": {
+        "weight_kg": 236.0,
+        "drag_kgf": 0.097
+      },
+      "250 kg 250-3": {
+        "weight_kg": 216.5,
+        "drag_kgf": 0.0257
+      },
+      "250 kg BA-250": {
+        "weight_kg": 250.0,
+        "drag_kgf": 0.07
+      },
+      "250 kg FAB-250M-46": {
+        "weight_kg": 252.2,
+        "drag_kgf": 0.0257
+      },
+      "250 kg FAB-250M-54": {
+        "weight_kg": 236.0,
+        "drag_kgf": 0.097
+      },
+      "250 kg FAB-250M-62": {
+        "weight_kg": 227.0,
+        "drag_kgf": 0.0257
+      },
+      "250 kg Matra 23E": {
+        "weight_kg": 223.0,
+        "drag_kgf": 0.0257
+      },
+      "250 kg Matra 25E": {
+        "weight_kg": 223.0,
+        "drag_kgf": 0.0257
+      },
+      "250 kg mb m/50": {
+        "weight_kg": 274.4,
+        "drag_kgf": 0.07
+      },
+      "250 kg MK82" : {
+        "weight_kg": 240.9,
+        "drag_kgf": 0.0257
+      },
+      "250 kg OFAB-250-270": {
+        "weight_kg": 268,
+        "drag_kgf": 0.097
+      },
+      "250 kg OFAB-250sv": {
+        "weight_kg": 250.0,
+        "drag_kgf": 0.07
+      },
+      "250 kg SAMP Type 25": {
+        "weight_kg": 274.0,
+        "drag_kgf": 0.0257
+      },
+      "250 kg SC250JA": {
+        "weight_kg": 250.0,
+        "drag_kgf": 0.07
+      },
+      "250 kg Type 250-2": {
+        "weight_kg": 236.92,
+        "drag_kgf": 0.07
+      },
+      "250 lb AN-M57": {
+        "weight_kg": 117.9,
+        "drag_kgf": 0.01
+      },
+      "250 lb LDGP Mk 81": {
+        "weight_kg": 117.9,
+        "drag_kgf": 0.01
+      },
+      "250 lb SAMP Mk 81": {
+        "weight_kg": 130.0,
+        "drag_kgf": 0.01
+      },
+      "250-2": {
+        "weight_kg": 236.0,
+        "drag_kgf": 0.097
+      },
+      "250/50 kg G.P.": {
+        "weight_kg": 265.7,
+        "drag_kgf": 0.257
+      },
+      "3000 kg 3000-2": {
+        "weight_kg": 2840.0,
+        "drag_kgf": 0.134
+      },
+      "3000 kg FAB-3000 UMPK": {
+        "weight_kg": 3067.0,
+        "drag_kgf": 0.134
+      },
+      "3000 kg FAB-3000M-46": {
+        "weight_kg": 2983.0,
+        "drag_kgf": 0.134
+      },
+      "3000 kg FAB-3000M-54": {
+        "weight_kg": 3067.0,
+        "drag_kgf": 0.134
+      },
+      "3000 lb M118": {
+        "weight_kg": 1369.8,
+        "drag_kgf": 0.081
+      },
+      "350/50 kg G.P.": {
+        "weight_kg": 362.42,
+        "drag_kgf": 0.038
+      },
+      "400 kg SAMP Type 21": {
+        "weight_kg": 400.0,
+        "drag_kgf": 0.042
+      },
+      "400 kg Sprengbombe": {
+        "weight_kg": 400.0,
+        "drag_kgf": 0.042
+      },
+      "4000 lb H.C. Mk.IV": {
+        "weight_kg": 1835.2,
+        "drag_kgf": 0.085
+      },
+      "450 kg Sprengbombe 68/70": {
+        "weight_kg": 446.8,
+        "drag_kgf": 0.042
+      },
+      "460 kg BAFG-460": {
+        "weight_kg": 452.0,
+        "drag_kgf": 0.042
+      },
+      "500 kg 500-2": {
+        "weight_kg": 473.0,
+        "drag_kgf": 0.097
+      },
+      "500 kg 500-3": {
+        "weight_kg": 469.0,
+        "drag_kgf": 0.097
+      },
+      "500 kg BA-500": {
+        "weight_kg": 508.3,
+        "drag_kgf": 0.097
+      },
+      "500 kg FAB-500M-46": {
+        "weight_kg": 428.0,
+        "drag_kgf": 0.097
+      },
+      "500 kg FAB-500M-54": {
+        "weight_kg": 478.0,
+        "drag_kgf": 0.097
+      },
+      "500 kg FAB-500M-62": {
+        "weight_kg": 508.3,
+        "drag_kgf": 0.097
+      },
+      "500 kg mb m/56": {
+        "weight_kg": 500.0,
+        "drag_kgf": 0.097
+      },
+      "500 kg Navy Type Number 50 Model 2": {
+        "weight_kg": 507.0,
+        "drag_kgf": 0.097
+      },
+      "500 kg SC500K": {
+        "weight_kg": 500.0,
+        "drag_kgf": 0.097
+      },
+      "500 lb AN-M64A1": {
+        "weight_kg": 242.6,
+        "drag_kgf": 0.0257
+      },
+      "500 lb H.E. M.C. Mk.II": {
+        "weight_kg": 213.1,
+        "drag_kgf": 0.0257
+      },
+      "500 lb LDGP Mk 82": {
+        "weight_kg": 240.9,
+        "drag_kgf": 0.0257
+      },
+      "500 lb SAMP Mk 82": {
+        "weight_kg": 240.9,
+        "drag_kgf": 0.0257
+      },
+      "500/50 G.P.": {
+        "weight_kg": 453.6,
+        "drag_kgf": 0.042
+      },
+      "600 kg mb m/50": {
+        "weight_kg": 614.4,
+        "drag_kgf": 0.097
+      },
+      "750 lb JM117 cone 45": {
+        "weight_kg": 362.42,
+        "drag_kgf": 0.038
+      },
+      "750 lb M117 cone 45": {
+        "weight_kg": 362.42,
+        "drag_kgf": 0.038
+      },
+      "800 kg Navy Type 99 Number 80 AP": {
+        "weight_kg": 805.0,
+        "drag_kgf": 0.2
+      },
+      "800 kg Number 80 Mod. 1": {
+        "weight_kg": 805.0,
+        "drag_kgf": 0.2
+      },
+      "800 kg Number 90 Mod.1": {
+        "weight_kg": 805.0,
+        "drag_kgf": 0.2
+      },
+      "920 kg BAFG-920": {
+        "weight_kg": 930.0,
+        "drag_kgf": 0.0793
+      },
+      "G.P. 500 lb Mk.IV": {
+        "weight_kg": 213.1,
+        "drag_kgf": 0.0257
+      },
+      "M.C. 500 lb Mk.I": {
+        "weight_kg": 231.7,
+        "drag_kgf": 0.0257
+      },
+      "Mk.M2 540 lb": {
+        "weight_kg": 213.1,
+        "drag_kgf": 0.027
+      }
+    },
+    "BOMBS_HIGH_DRAG": {
+      "100 kg OFAB-100-110TU": {
+        "weight_kg": 121,
+        "drag_kgf": 0.07
+      },
+      "1000 lb H.E. M.C. Mk.13 No.117": {
+        "weight_kg": 486.0,
+        "drag_kgf": 0.042
+      },
+      "1000 lb Mk 83 AIR": {
+        "weight_kg": 446.8,
+        "drag_kgf": 0.042
+      },
+      "2000 lb LDGP Mk 84 Air": {
+        "weight_kg": 893.6,
+        "drag_kgf": 0.0793
+      },
+      "230 kg BFA-230/2": {
+        "weight_kg": 250.0,
+        "drag_kgf": 0.0257
+      },
+      "250 kg 250-4": {
+        "weight_kg": 240.0,
+        "drag_kgf": 0.0257
+      },
+      "250 kg OFAB-250Sh": {
+        "weight_kg": 275.0,
+        "drag_kgf": 0.07
+      },
+      "250 kg SAMP Type 25 200": {
+        "weight_kg": 264.0,
+        "drag_kgf": 0.0257
+      },
+      "250 lb Mk 81 Snakeye": {
+        "weight_kg": 138.3,
+        "drag_kgf": 0.01
+      },
+      "400 kg SAMP Type 21 200": {
+        "weight_kg": 400.0,
+        "drag_kgf": 0.042
+      },
+      "460 kg BFA-460/2": {
+        "weight_kg": 486.0,
+        "drag_kgf": 0.042
+      },
+      "500 kg 500-4": {
+        "weight_kg": 508.3,
+        "drag_kgf": 0.097
+      },
+      "500 kg FAB-500Sh": {
+        "weight_kg": 515.0,
+        "drag_kgf": 0.097
+      },
+      "500 lb Mk 82 AIR": {
+        "weight_kg": 240.9,
+        "drag_kgf": 0.0257
+      },
+      "500 lb Mk 82 Snakeye": {
+        "weight_kg": 254.0,
+        "drag_kgf": 0.0257
+      },
+      "500 lb SAMP Mk 82 250 Snakeye": {
+        "weight_kg": 254.0,
+        "drag_kgf": 0.0257
+      },
+      "500kg FAB-500Sh": {
+        "weight_kg": 515.0,
+        "drag_kgf": 0.097
+      },
+      "H.E. M.C. Mk.1 No.118 540 lb": {
+        "weight_kg": 295.0,
+        "drag_kgf": 0.0257
+      }
+    },
+    "GUIDED_BOMBS": {
+      "500 kg FAB-500M-62 UMPK": {
+        "weight_kg": 560.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "KGGB": {
+        "weight_kg": 316.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "AASM 250 HAMMER (SBU 64)": {
+        "weight_kg": 330.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "IR",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "AASM 250 HAMMER (SBU 38)": {
+        "weight_kg": 330.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "AASM 250 HAMMER (SBU 54)": {
+        "weight_kg": 330.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "BA-FG-230-Lizard-2": {
+        "weight_kg": 277.14,
+        "drag_kgf": 0.014,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "BA-FG-230-Lizard-3": {
+        "weight_kg": 277.14,
+        "drag_kgf": 0.014,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "BGL-1000": {
+        "weight_kg": 970.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "BGL-400": {
+        "weight_kg": 400.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "EGBU-24B Paveway III": {
+        "weight_kg": 1079.55,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "Enhanced Paveway II": {
+        "weight_kg": 546.5,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "GB1000": {
+        "weight_kg": 1090.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "GB250": {
+        "weight_kg": 260.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "GB3": {
+        "weight_kg": 260.82,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "GB500": {
+        "weight_kg": 570.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "GBL-1000": {
+        "weight_kg": 970.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "GBU-10 Paveway II": {
+        "weight_kg": 943.93,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "GBU-12 Paveway II": {
+        "weight_kg": 277.14,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "GBU-15(V)1/B": {
+        "weight_kg": 1140.8,
+        "drag_kgf": 0.0793,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "GBU-15(V)2/B": {
+        "weight_kg": 1140.8,
+        "drag_kgf": 0.0793,
+        "guidance": [
+          "IR"
+        ]
+      },
+      "GBU-16 Paveway II": {
+        "weight_kg": 493.3,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "GBU-24 Paveway III": {
+        "weight_kg": 1079.55,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "GBU-27 Paveway III": {
+        "weight_kg": 991.0,
+        "drag_kgf": 0.0793,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "GBU-31 JDAM": {
+        "weight_kg": 893.6,
+        "drag_kgf": 0.0793,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "GBU-32 JDAM": {
+        "weight_kg": 446.8,
+        "drag_kgf": 0.0793,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "GBU-38 JDAM": {
+        "weight_kg": 253.1,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "GBU-38(V)2/B JDAM": {
+        "weight_kg": 253.1,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "GBU-39/B (SDB I)": {
+        "weight_kg": 121.56,
+        "drag_kgf": 0.0257
+      },
+      "GBU-48 Paveway II": {
+        "weight_kg": 495.3,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "GBU-49 Paveway II": {
+        "weight_kg": 277.14,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "GBU-50 Paveway II": {
+        "weight_kg": 943.93,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "GBU-53 (SDB II)": {
+        "weight_kg": 92.53,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "IR",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "GBU-54B LJDAM": {
+        "weight_kg": 260.82,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "GBU-62 JDAM-ER": {
+        "weight_kg": 289.72,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "GBU-62 LJDAM-ER": {
+        "weight_kg": 289.72,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "GBU-64 JDAM-ER": {
+        "weight_kg": 987.0,
+        "drag_kgf": 0.0793,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "GBU-8": {
+        "weight_kg": 1027.0,
+        "drag_kgf": 0.0793,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "Grom-2": {
+        "weight_kg": 598.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "Grom-E2": {
+        "weight_kg": 598.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "HOSBO": {
+        "weight_kg": 305.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "IR",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "KAB-1500Kr": {
+        "weight_kg": 1525.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "KAB-1500L": {
+        "weight_kg": 1525.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "KAB-1500LG": {
+        "weight_kg": 1525.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "KAB-1500LG-E": {
+        "weight_kg": 1525.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "KAB-250LG": {
+        "weight_kg": 256.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "KAB-250LG-E": {
+        "weight_kg": 256.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "KAB-500Kr-E": {
+        "weight_kg": 520.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "KAB-500Kr": {
+        "weight_kg": 520.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "KAB-500Kr-M": {
+        "weight_kg": 520.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV"
+        ]
+      },
+      "KAB-500L": {
+        "weight_kg": 560.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "KAB-500LG": {
+        "weight_kg": 560.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "KAB-500LG-E": {
+        "weight_kg": 560.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "KAB-500S": {
+        "weight_kg": 560.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "LS-6 250": {
+        "weight_kg": 294.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "LS-6 500": {
+        "weight_kg": 630.0,
+        "drag_kgf": 0.097,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "LS-6(IR) 250": {
+        "weight_kg": 300.0,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "IR",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "LS-6(IR) 500": {
+        "weight_kg": 640.0,
+        "drag_kgf": 0.097,
+        "guidance": [
+          "IR",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "Paveway II (Mk.13)": {
+        "weight_kg": 546.5,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "Paveway II (Mk.18)": {
+        "weight_kg": 546.5,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser"
+        ]
+      },
+      "Paveway IV": {
+        "weight_kg": 277.14,
+        "drag_kgf": 0.0257,
+        "guidance": [
+          "Laser",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "PGM 2000": {
+        "weight_kg": 1060.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV",
+          "IOG"
+        ]
+      },
+      "PGM 2000/1": {
+        "weight_kg": 1060.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "Laser",
+          "IOG"
+        ]
+      },
+      "PGM 2000/2": {
+        "weight_kg": 1060.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV",
+          "IOG"
+        ]
+      },
+      "PGM 2000/3": {
+        "weight_kg": 1060.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "IR",
+          "IOG"
+        ]
+      },
+      "PGM 500": {
+        "weight_kg": 404.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "TV",
+          "IOG"
+        ]
+      },
+      "PGM 500/1": {
+        "weight_kg": 404.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "Laser",
+          "IOG"
+        ]
+      },
+      "PGM 500/2": {
+        "weight_kg": 404,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "IR",
+          "IOG"
+        ]
+      },
+      "PGM 500/3": {
+        "weight_kg": 404.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "IR",
+          "IOG"
+        ]
+      },
+      "SPICE 1000": {
+        "weight_kg": 490.0,
+        "drag_kgf": 0.045,
+        "guidance": [
+          "IR",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "SPICE 2000": {
+        "weight_kg": 970.0,
+        "drag_kgf": 0.0993,
+        "guidance": [
+          "IR",
+          "IOG",
+          "GNSS"
+        ]
+      },
+      "UPAB-1500B": {
+        "weight_kg": 1525.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "UPAB-1500B-E": {
+        "weight_kg": 1525.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "UPAB-500B": {
+        "weight_kg": 505.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "GNSS"
+        ]
+      },
+      "UPAB-500B-E": {
+        "weight_kg": 505.0,
+        "drag_kgf": 0.025,
+        "guidance": [
+          "GNSS"
+        ]
+      }
+    },
+    "ROCKETS": {
+      "x38 FFAR Mighty Mouse": {
+        "weight_kg": 467.5,
+        "drag_kgf": 0.8714,
+        "rocket_id": "FFAR Mighty Mouse",
+        "is_pod": true
+      },
+      "x10 psrak m/49B": {
+        "weight_kg": 420.0,
+        "drag_kgf": 0.11,
+        "rocket_id": "psrak m/49B",
+        "is_pod": false
+      },
+      "x10 S-13OF": {
+        "weight_kg": 2020.0,
+        "drag_kgf": 0.188,
+        "rocket_id": "S-13OF",
+        "is_pod": true
+      },
+      "x10 srak m/51": {
+        "weight_kg": 640.0,
+        "drag_kgf": 0.122,
+        "rocket_id": "srak m/51",
+        "is_pod": false
+      },
+      "x112 Type 23 SNEB": {
+        "weight_kg": 565.0,
+        "drag_kgf": 0.0,
+        "rocket_id": "Type 23 SNEB",
+        "is_pod": false
+      },
+      "x12 Zuni Mk32 Mod 0 ATAP": {
+        "weight_kg": 840.84,
+        "drag_kgf": 0.1158,
+        "rocket_id": "Zuni Mk32",
+        "is_pod": true
+      },
+      "x14 Skyfire-70 AC/AP": {
+        "weight_kg": 320.46,
+        "drag_kgf": 0.041,
+        "rocket_id": "Skyfire-70",
+        "is_pod": true
+      },
+      "x14 AGR-20A (APKWS II M151)": {
+        "weight_kg": 327.6,
+        "drag_kgf": 0.01,
+        "rocket_id": "AGR-20A",
+        "is_pod": true
+      },
+      "x14 AGR-20B (APKWS II M282)": {
+        "weight_kg": 359.4,
+        "drag_kgf": 0.01,
+        "rocket_id": "agr_20b",
+        "is_pod": true
+      },
+      "x14 FFAR Mighty Mouse": {
+        "weight_kg": 303.74,
+        "drag_kgf": 0.048,
+        "rocket_id": "FFAR Mighty Mouse",
+        "is_pod": true
+      },
+      "x14 Type 90-1 HEAT": {
+        "weight_kg": 306.9,
+        "drag_kgf": 0.014,
+        "rocket_id": "Type 90-1",
+        "is_pod": true
+      },
+      "x16 Fire Snake 90A": {
+        "weight_kg": 362.8,
+        "drag_kgf": 0.133,
+        "rocket_id": "Fire Snake",
+        "is_pod": true
+      },
+      "x16 S-5KP": {
+        "weight_kg": 132.15,
+        "drag_kgf": 0.060,
+        "rocket_id": "S-5KP",
+        "is_pod": true
+      },
+      "x18 Type 23 SNEB": {
+        "weight_kg": 183.9,
+        "drag_kgf": 0.060,
+        "rocket_id": "Type 23 SNEB",
+        "is_pod": true
+      },
+      "x19 CRV7 M247": {
+        "weight_kg": 263.9,
+        "drag_kgf": 0.005,
+        "rocket_id": "CRV7",
+        "is_pod": true
+      },
+      "x19 Hydra-70 M247": {
+        "weight_kg": 256.14,
+        "drag_kgf": 0.005,
+        "rocket_id": "Hydra-70",
+        "is_pod": true
+      },
+      "x19 Skyfire-70 AC/AP": {
+        "weight_kg": 308.78,
+        "drag_kgf": 0.045,
+        "rocket_id": "Skyfire-70",
+        "is_pod": true
+      },
+      "x19 FFAR Mighty Mouse": {
+        "weight_kg": 233.75,
+        "drag_kgf": 0.043,
+        "rocket_id": "FFAR Mighty Mouse",
+        "is_pod": true
+      },
+      "x19 srak m/57B": {
+        "weight_kg": 274.5,
+        "drag_kgf": 0.023,
+        "rocket_id": "srak m/57b",
+        "is_pod": true
+      },
+      "x19 Type 23 SNEB": {
+        "weight_kg": 179.5,
+        "drag_kgf": 0.057,
+        "rocket_id": "Type 23 SNEB",
+        "is_pod": true
+      },
+      "x2 8-cm Flz.-Rakete Oerlikon": {
+        "weight_kg": 37.6,
+        "drag_kgf": 0.007,
+        "rocket_id": "Oerlikon",
+        "is_pod": false
+      },
+      "x2 HVAR": {
+        "weight_kg": 125.6,
+        "drag_kgf": 0.036,
+        "rocket_id": "HVAR",
+        "is_pod": false
+      },
+      "x2 m/56D": {
+        "weight_kg": 82.0,
+        "drag_kgf": 0.022,
+        "rocket_id": "m/56D",
+        "is_pod": false
+      },
+      "x2 PRN-122": {
+        "weight_kg": 131.4,
+        "drag_kgf": 0.022,
+        "rocket_id": "PRN",
+        "is_pod": false
+      },
+      "x2 S-25O": {
+        "weight_kg": 182.0,
+        "drag_kgf": 0.025,
+        "rocket_id": "S-25O",
+        "is_pod": false
+      },
+      "x2 psrak m/49B": {
+        "weight_kg": 168.0,
+        "drag_kgf": 0.052,
+        "rocket_id": "psrak m/49B",
+        "is_pod": false
+      },
+      "x2 S-1of": {
+        "weight_kg": 204.8,
+        "drag_kgf": 0.022,
+        "rocket_id": "S-1of",
+        "is_pod": false
+      },
+      "x2 srak m/51": {
+        "weight_kg": 256.0,
+        "drag_kgf": 0.056,
+        "rocket_id": "srak m/51",
+        "is_pod": false
+      },
+      "x2 T10 140": {
+        "weight_kg": 112.0,
+        "drag_kgf": 0.048,
+        "rocket_id": "T10 140",
+        "is_pod": false
+      },
+      "x2 T10 151": {
+        "weight_kg": 112.0,
+        "drag_kgf": 0.048,
+        "rocket_id": "T10 151"
+      },
+      "x20 S-8KO": {
+        "weight_kg": 376.0,
+        "drag_kgf": 0.08,
+        "rocket_id": "S-8KO",
+        "is_pod": true
+      },
+      "x21 Hydra-70 M247": {
+        "weight_kg": 393.3,
+        "drag_kgf": 0.033,
+        "rocket_id": "Hydra-70",
+        "is_pod": true
+      },
+      "x21 AGR-20A (APKWS II M151)": {
+        "weight_kg": 480.4,
+        "drag_kgf": 0.026,
+        "rocket_id": "AGR-20A",
+        "is_pod": true
+      },
+      "x21 AGR-20B (APKWS II M282)": {
+        "weight_kg": 528.1,
+        "drag_kgf": 0.026,
+        "rocket_id": "AGR-20B",
+        "is_pod": true
+      },
+      "x25 ARF/8M3(AP-AT)": {
+        "weight_kg": 178.1,
+        "drag_kgf": 0.086,
+        "rocket_id": "ARF/8M3",
+        "is_pod": true
+      },
+      "x3 AP Mk II": {
+        "weight_kg": 81.77,
+        "drag_kgf": 0.04,
+        "rocket_id": "AP Mk II",
+        "is_pod": false
+      },
+      "x3 srak m/55 Frida": {
+        "weight_kg": 24.0,
+        "drag_kgf": 0.002,
+        "rocket_id": "srak m/55",
+        "is_pod": false
+      },
+      "x32 FFAR Mighty Mouse": {
+        "weight_kg": 287.4,
+        "drag_kgf": 0.0,
+        "rocket_id": "FFAR Mighty Mouse",
+        "is_pod": true
+      },
+      "x32 S-5KP": {
+        "weight_kg": 269.32,
+        "drag_kgf": 0.11,
+        "rocket_id": "S-5KP",
+        "is_pod": true
+      },
+      "x32 Type 57-1": {
+        "weight_kg": 225.5,
+        "drag_kgf": 0.11,
+        "rocket_id": "Type 57-1",
+        "is_pod": true
+      },
+      "x35 Type 23 SNEB": {
+        "weight_kg": 176.8,
+        "drag_kgf": 0.0,
+        "rocket_id": "Type 23 SNEB",
+        "is_pod": true
+      },
+      "x36 RP": {
+        "weight_kg": 163.3,
+        "drag_kgf": 0.1,
+        "rocket_id": "RP",
+        "is_pod": true
+      },
+      "x36 Type 23 SNEB": {
+        "weight_kg": 367.8,
+        "drag_kgf": 0.118,
+        "rocket_id": "Type 23 SNEB",
+        "is_pod": true
+      },
+      "x38 CRV7 M247": {
+        "weight_kg": 527.8,
+        "drag_kgf": 0.005,
+        "rocket_id": "CRV7",
+        "is_pod": true
+      },
+      "x38 Hydra-70 M247": {
+        "weight_kg": 512.27,
+        "drag_kgf": 0.103,
+        "rocket_id": "Hydra-70",
+        "is_pod": true
+      },
+      "x38 Skyfire-70 AC/AP": {
+        "weight_kg": 512.28,
+        "drag_kgf": 0.045,
+        "rocket_id": "Skyfire-70",
+        "is_pod": true
+      },
+      "x4 8-cm Flz.-Rakete Oerlikon": {
+        "weight_kg": 75.2,
+        "drag_kgf": 0.007,
+        "rocket_id": "Oerlikon",
+        "is_pod": false
+      },
+      "x4 HVAR": {
+        "weight_kg": 251.2,
+        "drag_kgf": 0.036,
+        "rocket_id": "HVAR",
+        "is_pod": false
+      },
+      "x4 m/56D": {
+        "weight_kg": 164.0,
+        "drag_kgf": 0.022,
+        "rocket_id": "m/56D",
+        "is_pod": false
+      },
+      "x4 R4M": {
+        "weight_kg": 15.4,
+        "drag_kgf": 0.0048,
+        "rocket_id": "R4M",
+        "is_pod": false
+      },
+      "x4 RP-3": {
+        "weight_kg": 172.4,
+        "drag_kgf": 0.072,
+        "rocket_id": "RP-3",
+        "is_pod": false
+      },
+      "x4 srak m/55 Frida": {
+        "weight_kg": 32.0,
+        "drag_kgf": 0.0038,
+        "rocket_id": "srak m/55",
+        "is_pod": false
+      },
+      "x4 T10 121": {
+        "weight_kg": 114.0,
+        "drag_kgf": 0.070,
+        "rocket_id": "T10",
+        "is_pod": false
+      },
+      "x4 TBA ECC": {
+        "weight_kg": 155.2,
+        "drag_kgf": 0.04,
+        "rocket_id": "TBA ECC",
+        "is_pod": true
+      },
+      "x4 TBA ECC Multi-Dart 100 AB": {
+        "weight_kg": 162.0,
+        "drag_kgf": 0.04,
+        "rocket_id": "TBA ECC Multi-Dart 100",
+        "is_pod": true
+      },
+      "x4 Type 130-2": {
+        "weight_kg": 235.25,
+        "drag_kgf": 0.019,
+        "rocket_id": "Type 130-2",
+        "is_pod": true
+      },
+      "x4 Type R80 SURA T-80-P 3": {
+        "weight_kg": 67.6,
+        "drag_kgf": 0.008,
+        "rocket_id": "Type R80 SURA T-80-P",
+        "is_pod": false
+      },
+      "x4 Type R80 SURA T-80-US 3": {
+        "weight_kg": 64.0,
+        "drag_kgf": 0.008,
+        "rocket_id": "Type R80 SURA T-80-US",
+        "is_pod": false
+      },
+      "x4 Zuni Mk32 Mod 0 ATAP": {
+        "weight_kg": 280.27,
+        "drag_kgf": 0.038,
+        "rocket_id": "Zuni Mk32",
+        "is_pod": true
+      },
+      "x40 S-8KO": {
+        "weight_kg": 752.0,
+        "drag_kgf": 0.16,
+        "rocket_id": "S-8KO",
+        "is_pod": true
+      },
+      "x44 SNEB type 23": {
+        "weight_kg": 222.2,
+        "drag_kgf": 0.0,
+        "rocket_id": "Type 23 SNEB",
+        "is_pod": true
+      },
+      "x5 hprak m/49": {
+        "weight_kg": 120.0,
+        "drag_kgf": 0.081,
+        "rocket_id": "m/49",
+        "is_pod": false
+      },
+      "x5 S-13OF": {
+        "weight_kg": 505.0,
+        "drag_kgf": 0.047,
+        "rocket_id": "S-130F",
+        "is_pod": true
+      },
+      "x50 ARF/8M3(AP-AT)": {
+        "weight_kg": 178.1,
+        "drag_kgf": 0.086,
+        "rocket_id": "ARF/8M3",
+        "is_pod": true
+      },
+      "x50 Type 23 SNEB": {
+        "weight_kg": 252.5,
+        "drag_kgf": 0.0,
+        "rocket_id": "Type 23 SNEB",
+        "is_pod": true
+      },
+      "x52 FFAR Mighty Mouse": {
+        "weight_kg": 467.0,
+        "drag_kgf": 0.105,
+        "rocket_id": "FFAR Mighty Mouse",
+        "is_pod": true
+      },
+      "x52 FFAR Mighty Mouse M439": {
+        "weight_kg": 422.5,
+        "drag_kgf": 0.105,
+        "rocket_id": "FFAR Mighty Mouse M439",
+        "is_pod": true
+      },
+      "x54 Type 23 SNEB": {
+        "weight_kg": 183.9,
+        "drag_kgf": 0.059,
+        "rocket_id": "Type 23 SNEB",
+        "is_pod": true
+      },
+      "x55 Type 23 SNEB": {
+        "weight_kg": 277.8,
+        "drag_kgf": 0.0,
+        "rocket_id": "Type 23 SNEB",
+        "is_pod": true
+      },
+      "x57 FFAR Mighty Mouse": {
+        "weight_kg": 688.92,
+        "drag_kgf": 0.129,
+        "rocket_id": "FFAR Mighty Mouse",
+        "is_pod": true
+      },
+      "x6 AP Mk II": {
+        "weight_kg": 190.3,
+        "drag_kgf": 0.096,
+        "rocket_id": "AP Mk II",
+        "is_pod": false
+      },
+      "x6 HVAR": {
+        "weight_kg": 376.8,
+        "drag_kgf": 0.108,
+        "rocket_id": "HVAR",
+        "is_pod": false
+      },
+      "x6 m/56D": {
+        "weight_kg": 246.0,
+        "drag_kgf": 0.06,
+        "rocket_id": "m/56D",
+        "is_pod": false
+      },
+      "x6 psrak m/70": {
+        "weight_kg": 337.45,
+        "drag_kgf": 0.065,
+        "rocket_id": "psrak m/70",
+        "is_pod": true
+      },
+      "x6 T10 140": {
+        "weight_kg": 168.0,
+        "drag_kgf": 0.072,
+        "rocket_id": "T10 140",
+        "is_pod": false
+      },
+      "x6 T10 151": {
+        "weight_kg": 168.0,
+        "drag_kgf": 0.072,
+        "rocket_id": "T10 151",
+        "is_pod": false
+      },
+      "x64 S-5KP": {
+        "weight_kg": 538.63,
+        "drag_kgf": 0.22,
+        "rocket_id": "S-5KP",
+        "is_pod": true
+      },
+      "x7 Hydra-70 M247": {
+        "weight_kg": 101.13,
+        "drag_kgf": 0.015,
+        "rocket_id": "Hydra-70",
+        "is_pod": true
+      },
+      "x7 Skyfire-70 AC/AP": {
+        "weight_kg": 160.23,
+        "drag_kgf": 0.02,
+        "rocket_id": "Skyfire-70",
+        "is_pod": true
+      },
+      "x7 AGR-20A (APKWS II M151)": {
+        "weight_kg": 163.8,
+        "drag_kgf": 0.01,
+        "rocket_id": "AGR-20A",
+        "is_pod": true
+      },
+      "x7 AGR-20B (APKWS II M282)": {
+        "weight_kg": 179.7,
+        "drag_kgf": 0.1,
+        "rocket_id": "AGR-20B",
+        "is_pod": true
+      },
+      "x7 FFAR Mighty Mouse": {
+        "weight_kg": 93.275,
+        "drag_kgf": 0.019,
+        "rocket_id": "FFAR Mighty Mouse",
+        "is_pod": true
+      },
+      "x7 FZ49 HEAT": {
+        "weight_kg": 145.85,
+        "drag_kgf": 0.024,
+        "rocket_id": "FZ49",
+        "is_pod": true
+      },
+      "x7 S-3K": {
+        "weight_kg": 216.5,
+        "drag_kgf": 0.082,
+        "rocket_id": "S-3K",
+        "is_pod": true
+      },
+      "x7 Type 90-1 HEAT": {
+        "weight_kg": 102.2,
+        "drag_kgf": 0.012,
+        "rocket_id": "Type 90-1",
+        "is_pod": true
+      },
+      "x8 S-5M": {
+        "weight_kg": 139.8,
+        "drag_kgf": 0.03,
+        "rocket_id": "S-5M",
+        "is_pod": true
+      },
+      "x8 S-5KP": {
+        "weight_kg": 149.0,
+        "drag_kgf": 0.036,
+        "rocket_id": "S-5KP",
+        "is_pod": true
+      },
+      "x8 Type R80 SURA T-80-P 3": {
+        "weight_kg": 95.2,
+        "drag_kgf": 0.08,
+        "rocket_id": "Type R80 SURA T-80-P",
+        "is_pod": true
+      },
+      "x8 Type R80 SURA T-80-US 3": {
+        "weight_kg": 88.0,
+        "drag_kgf": 0.08,
+        "rocket_id": "Type R80 SURA T-80-US",
+        "is_pod": false
+      },
+      "x8 Zuni Mk32 Mod 0 ATAP": {
+        "weight_kg": 716.0,
+        "drag_kgf": 0.09,
+        "rocket_id": "Zuni Mk32",
+        "is_pod": true
+      }
+    },
+    "FUEL_TANKS": {
+      "Conformal fuel tank": {
+        "weight_kg": 220.0,
+        "drag_kgf": 0.02
+      },
+      "Drop tank (100 gal.)": {
+        "weight_kg": 68.0,
+        "drag_kgf": 0.001,
+        "capacity": 302.8
+      },
+      "Drop tank (167 gal.)": {
+        "weight_kg": 70.0,
+        "drag_kgf": 0.001,
+        "capacity": 505.72
+      },
+      "Drop tank (1000 liters)": {
+        "weight_kg": 116.0,
+        "drag_kgf": 0.001,
+        "capacity": 800.0
+      },
+      "Drop tank (1100 liters)": {
+        "weight_kg": 68.0,
+        "drag_kgf": 0.001,
+        "capacity": 880.0
+      },
+      "Drop tank (1140 liters)": {
+        "weight_kg": 68.0,
+        "drag_kgf": 0.001,
+        "capacity": 912.0
+      },
+      "Drop tank (1150 liters)": {
+        "weight_kg": 64.15,
+        "drag_kgf":0.001,
+        "capacity": 920.0
+      },
+      "Drop tank (1200 liters)": {
+        "weight_kg": 135.0,
+        "drag_kgf": 0.06,
+        "capacity": 960.0
+      },
+      "Drop tank (1250 liters)": {
+        "weight_kg": 100.0,
+        "drag_kgf": 0.001,
+        "capacity": 1000.0
+      },
+      "Drop tank (130 gal.)": {
+        "weight_kg": 81.0,
+        "drag_kgf": 0.001,
+        "capacity": 393.68
+      },
+      "Drop tank (1300 liters)": {
+        "weight_kg": 110.0,
+        "drag_kgf": 0.06,
+        "capacity": 1040.0
+      },
+      "Drop tank (1400 liters)": {
+        "weight_kg": 68.0,
+        "drag_kgf": 0.001,
+        "capacity": 1120.0
+      },
+      "Drop tank (150 gal.)": {
+        "weight_kg": 80.0,
+        "drag_kgf": 0.001,
+        "capacity": 454.24
+      },
+      "Drop tank (1500 liters)": {
+        "weight_kg": 174.0,
+        "drag_kgf": 0.001,
+        "capacity": 1200.0
+      },
+      "Drop tank (1520 liters)": {
+        "weight_kg": 116.0,
+        "drag_kgf": 0.001,
+        "capacity": 1216.0
+      },
+      "Drop tank (1600 liters)": {
+        "weight_kg": 68.0,
+        "drag_kgf": 0.001,
+        "capacity": 1280.0
+      },
+      "Drop tank (1700 liters)": {
+        "weight_kg": 150.0,
+        "drag_kgf": 0.06,
+        "capacity": 1360.0
+      },
+      "Drop tank (1860 liters)": {
+        "weight_kg": 150.0,
+        "drag_kgf": 0.06,
+        "capacity": 1488.0
+      },
+      "Drop tank (200 gal.)": {
+        "weight_kg": 100.0,
+        "drag_kgf": 0.001,
+        "capacity": 605.6
+      },
+      "Drop tank (2000 liters)": {
+        "weight_kg": 120.0,
+        "drag_kgf": 0.001,
+        "capacity": 1600.0
+      },
+      "Drop tank (2150 liters)": {
+        "weight_kg": 125.0,
+        "drag_kgf": 0.001,
+        "capacity": 1720
+      },
+      "Drop tank (2500 liters)": {
+        "weight_kg": 135.0,
+        "drag_kgf": 0.06,
+        "capacity": 1200.0
+      },
+      "Drop tank (264 gal.)": {
+        "weight_kg": 120.0,
+        "drag_kgf": 0.001,
+        "capacity": 799.44
+      },
+      "Drop tank (275 gal.)": {
+        "weight_kg": 80.0,
+        "drag_kgf": 0.001,
+        "capacity": 832.72
+      },
+      "Drop tank (280 gal.)": {
+        "weight_kg": 90.7,
+        "drag_kgf": 0.001,
+        "capacity": 847.92
+      },
+      "Drop tank (300 gal.)": {
+        "weight_kg": 100.0,
+        "drag_kgf": 0.001,
+        "capacity": 908.48
+      },
+      "Drop tank (3000 liters)": {
+        "weight_kg": 120.0,
+        "drag_kgf": 0.07,
+        "capacity": 2400.0
+      },
+      "Drop tank (3050 liters)": {
+        "weight_kg": 125.0,
+        "drag_kgf": 0.07,
+        "capacity": 2440.0
+      },
+      "Drop tank (310 liters)": {
+        "weight_kg": 120.0,
+        "drag_kgf": 0.07,
+        "capacity": 248.0
+      },
+      "Drop tank (330 gal.)": {
+        "weight_kg": 110.0,
+        "drag_kgf": 0.001,
+        "capacity": 999.28
+      },
+      "Drop tank (330 liters)": {
+        "weight_kg": 42.0,
+        "drag_kgf": 0.09,
+        "capacity": 264.0
+      },
+      "Drop tank (358 gal.)": {
+        "weight_kg": 120.0,
+        "drag_kgf": 0.07,
+        "capacity": 1084.08
+      },
+      "Drop tank (370 gal.)": {
+        "weight_kg": 100.0,
+        "drag_kgf": 0.001,
+        "capacity": 1120.56
+      },
+      "Drop tank (400 liters)": {
+        "weight_kg": 50.0,
+        "drag_kgf": 0.001,
+        "capacity": 320.0
+      },
+      "Drop tank (440 gal.)": {
+        "weight_kg": 110.0,
+        "drag_kgf": 0.001,
+        "capacity": 1332.4
+      },
+      "Drop tank (480 gal.)": {
+        "weight_kg": 172.1,
+        "drag_kgf": 0.001,
+        "capacity": 1453.52
+      },
+      "Drop tank (490 liters)": {
+        "weight_kg": 70.0,
+        "drag_kgf": 0.001,
+        "capacity": 392.0
+      },
+      "Drop tank (495 gal.)": {
+        "weight_kg": 175.0,
+        "drag_kgf": 0.001,
+        "capacity": 1498.96
+      },
+      "Drop tank (50 gal.)": {
+        "weight_kg": 80.0,
+        "drag_kgf": 0.001,
+        "capacity": 151.36
+      },
+      "Drop tank (500 liters)": {
+        "weight_kg": 120.0,
+        "drag_kgf": 0.08,
+        "capacity": 400.0
+      },
+      "Drop tank (510 liters)": {
+        "weight_kg": 145.0,
+        "drag_kgf": 0.001,
+        "capacity": 408.0
+      },
+      "Drop tank (5280 liters)": {
+        "weight_kg": 68.0,
+        "drag_kgf": 0.001,
+        "capacity": 4224.0
+      },
+      "Drop tank (540 liters)": {
+        "weight_kg": 145.0,
+        "drag_kgf": 0.07,
+        "capacity": 432.0
+      },
+      "Drop tank (580 liters)": {
+        "weight_kg": 144.0,
+        "drag_kgf": 0.001,
+        "capacity": 464.0
+      },
+      "Drop tank (600 gal.)": {
+        "weight_kg": 175.0,
+        "drag_kgf": 0.001,
+        "capacity": 1816.96
+      },
+      "Drop tank (610 gal.)": {
+        "weight_kg": 145.15,
+        "drag_kgf": 0.028,
+        "capacity": 1847.28
+      },
+      "Drop tank (630 liters)": {
+        "weight_kg": 213.58,
+        "drag_kgf": 0.001,
+        "capacity": 504.0
+      },
+      "Drop tank (720 liters)": {
+        "weight_kg": 59.6,
+        "drag_kgf": 0.001,
+        "capacity": 576.0
+      },
+      "Drop tank (730 liters)": {
+        "weight_kg": 60.0,
+        "drag_kgf": 0.001,
+        "capacity": 584.0
+      },
+      "Drop tank (760 liters)": {
+        "weight_kg": 145.0,
+        "drag_kgf": 0.001,
+        "capacity": 608.0
+      },
+      "Drop tank (800 liters)": {
+        "weight_kg": 68.0,
+        "drag_kgf": 0.001,
+        "capacity": 640.0
+      },
+      "Drop tank (820 liters)": {
+        "weight_kg": 70.0,
+        "drag_kgf": 0.001,
+        "capacity": 656.0
+      },
+      "Drop tank (880 liters)": {
+        "weight_kg": 120.0,
+        "drag_kgf": 0.001,
+        "capacity": 704.0
+      },
+      "External tank (100 gal.)": {
+        "weight_kg": 68.0,
+        "drag_kgf": 0.001,
+        "capacity": 302.83
+      },
+      "External tank (180 gal.)": {
+        "weight_kg": 68.0,
+        "drag_kgf": 0.001,
+        "capacity": 545.04
+      },
+      "Fuel tank for SEPR 841": {
+        "weight_kg": 1.0,
+        "drag_kgf": 0.001,
+        "capacity": 1080.0
+      },
+      "Fuel tank for SEPR 844": {
+        "weight_kg": 1.0,
+        "drag_kgf": 0.001,
+        "capacity": 1080.0
+      }
+    },
+    "NAPALM": {
+      "Mk 79 Mod 1": {
+        "weight_kg": 406.0,
+        "drag_kgf": 0.07
+      },
+      "250-2 incendiary bomb": {
+        "weight_kg": 135.0,
+        "drag_kgf": 0.07
+      },
+      "400 kg FeBb": {
+        "weight_kg": 400.0,
+        "drag_kgf": 0.07
+      },
+      "Aerea 559G1": {
+        "weight_kg": 253.0,
+        "drag_kgf": 0.07
+      },
+      "BINC-300": {
+        "weight_kg": 401.4,
+        "drag_kgf": 0.07
+      },
+      "BLU-1": {
+        "weight_kg": 401.4,
+        "drag_kgf": 0.07
+      },
+      "BLU-27/B": {
+        "weight_kg": 401.4,
+        "drag_kgf": 0.07
+      },
+      "Brandbomb m/58": {
+        "weight_kg": 510.0,
+        "drag_kgf": 0.07
+      },
+      "FeBb": {
+        "weight_kg": 400.0,
+        "drag_kgf": 0.07
+      },
+      "M116A2": {
+        "weight_kg": 310.7,
+        "drag_kgf": 0.07
+      },
+      "Mk 77 Mod 0": {
+        "weight_kg": 344.7,
+        "drag_kgf": 0.07
+      },
+      "Mk 77 mod 2": {
+        "weight_kg": 239.9,
+        "drag_kgf": 0.07
+      },
+      "Mk 77 mod 4": {
+        "weight_kg": 235.9,
+        "drag_kgf": 0.07
+      },
+      "Mk 78": {
+        "weight_kg": 416.4,
+        "drag_kgf": 0.07
+      },
+      "Mk.2": {
+        "weight_kg": 401.4,
+        "drag_kgf": 0.07
+      },
+      "SECAN 63": {
+        "weight_kg": 420.0,
+        "drag_kgf": 0.07
+      },
+      "ZB-360": {
+        "weight_kg": 342.0,
+        "drag_kgf": 0.07
+      },
+      "ZB-500": {
+        "weight_kg": 374.0,
+        "drag_kgf": 0.07
+      }
+    },
+    "TORPEDOES": {
+      "450mm 45-36MAN": {
+        "weight_kg": 970.0,
+        "drag_kgf": 0.24
+      },
+      "450mm 45-54VT": {
+        "weight_kg": 950.0,
+        "drag_kgf": 0.24
+      }
+    },
+    "PODS": {
+      "AN/AAS-38A": {
+        "weight_kg": 158.0,
+        "drag_kgf": 0.008
+      },
+      "AN/AAS-38B": {
+        "weight_kg": 158.0,
+        "drag_kgf": 0.008
+      },
+      "AN/ASQ-213 R5 HARM" : {
+        "weight_kg": 41.0,
+        "drag_kgf": 0.007
+      },
+      "APK-9": {
+        "weight_kg": 20.0,
+        "drag_kgf": 0.007
+      },
+      "ASELPOD": {
+        "weight_kg": 240.0,
+        "drag_kgf": 0.007
+      },
+      "ASW-55": {
+        "weight_kg": 55.0,
+        "drag_kgf": 0.007
+      },
+      "Aspide": {
+        "weight_kg": 20.0,
+        "drag_kgf": 0.0
+      },
+      "ATFLIR": {
+        "weight_kg": 192.0,
+        "drag_kgf": 0.007
+      },
+      "ATLIS II": {
+        "weight_kg": 192.0,
+        "drag_kgf": 0.007
+      },
+      "CLDP": {
+        "weight_kg": 230.0,
+        "drag_kgf": 0.008
+      },
+      "DAMOCLES": {
+        "weight_kg": 265.0,
+        "drag_kgf": 0.008
+      },
+      "Data link pod": {
+        "weight_kg": 20.0,
+        "drag_kgf": 0.007
+      },
+      "Delta-NG": {
+        "weight_kg": 20.0,
+        "drag_kgf": 0.007
+      },
+      "J/AAQ-2": {
+        "weight_kg": 145.0,
+        "drag_kgf": 0.015
+      },
+      "K/ADC03A": {
+        "weight_kg": 227.0,
+        "drag_kgf": 0.007
+      },
+      "K/PZS-01": {
+        "weight_kg": 20.0,
+        "drag_kgf": 0.007
+      },
+      "Kopyo-25": {
+        "weight_kg": 90.0,
+        "drag_kgf": 0.0
+      },
+      "L-066 'Viuga'": {
+        "weight_kg": 200,
+        "drag_kgf": 0.007
+      },
+      "L-086 'Viuga-17'": {
+        "weight_kg": 200.0,
+        "drag_kgf": 0.007
+      },
+      "L-081 B 'Fantasmagoria-B'": {
+        "weight_kg": 250.0,
+        "drag_kgf": 0.007
+      },
+      "L-081 C 'Fantasmagoria-B'": {
+        "weight_kg": 250.0,
+        "drag_kgf": 0.007
+      },
+      "L-080 A 'Fantasmagoria-A'": {
+        "weight_kg": 250.0,
+        "drag_kgf": 0.007
+      },
+      "LANA Flir": {
+        "weight_kg": 322.1,
+        "drag_kgf": 0.007
+      },
+      "LANTIRN": {
+        "weight_kg": 211.5,
+        "drag_kgf": 0.015
+      },
+      "LITENING II": {
+        "weight_kg": 208.0,
+        "drag_kgf": 0.008
+      },
+      "LITENING III": {
+        "weight_kg": 208.0,
+        "drag_kgf": 0.008
+      },
+      "Mercury": {
+        "weight_kg": 211.5,
+        "drag_kgf": 0.007
+      },
+      "Pave Spike": {
+        "weight_kg": 209.0,
+        "drag_kgf": 0.008
+      },
+      "Pave Tack": {
+        "weight_kg": 209.0,
+        "drag_kgf": 0.008
+      },
+      "Projector-1": {
+        "weight_kg": 20.0,
+        "drag_kgf": 0.007
+      },
+      "Sniper targeting pod": {
+        "weight_kg": 202.0,
+        "drag_kgf": 0.008
+      },
+      "T220": {
+        "weight_kg": 265.0,
+        "drag_kgf": 0.008
+      },
+      "TALIOS": {
+        "weight_kg": 265.0,
+        "drag_kgf": 0.008
+      },
+      "Targeting pod": {
+        "weight_kg": 20.0,
+        "drag_kgf": 0.008
+      },
+      "TIALD": {
+        "weight_kg": 120.0,
+        "drag_kgf": 0.008
+      },
+      "YINGS-III": {
+        "weight_kg": 227.0,
+        "drag_kgf": 0.007
+      }
+    },
+    "ROCKET_BOOSTERS": {
+      "SEPR 841": {
+        "weight_kg": 210.0,
+        "drag_kgf": 0.001
+      },
+      "SEPR 844": {
+        "weight_kg": 210.0,
+        "drag_kgf": 0.001
+      }
+    },
+    "GUN_PODS": {
+      "12.7mm M3 Browning": {
+        "weight_kg": 29,
+        "drag_kgf": 0.335,
+        "rof_rps": 20.0
+      },
+      "20mm GIAT M.621": {
+        "weight_kg": 45.5,
+        "drag_kgf": 0.15,
+        "rof_rps": 13.33
+      },
+      "20mm GAU-4": {
+        "weight_kg": 494,
+        "drag_kgf": 0.15,
+        "rof_rps": 100.0,
+        "shootingCharge": 5.5
+      },
+      "20mm M61A1": {
+        "weight_kg": 229.5,
+        "drag_kgf": 0.0,
+        "rof_rps": 100.0,
+        "shootingCharge": 5.5
+      },
+      "20mm Mk 11 mod 5": {
+        "weight_kg": 357.0,
+        "drag_kgf": 0.085,
+        "rof_rps": 66.66
+      },
+      "23mm GSh-23L": {
+        "weight_kg": 50.5,
+        "drag_kgf": 0.1,
+        "rof_rps": 56.6
+      },
+      "23mm GSh-6-23M": {
+        "weight_kg": 525.0,
+        "drag_kgf": 0.066,
+        "rof_rps": 150.0
+      },
+      "25mm GAU-12/U": {
+        "weight_kg": 203.0,
+        "drag_kgf": 0.005,
+        "rof_rps": 60.0,
+        "shootingCharge": 5.5
+      },
+      "25mm ADEN 25": {
+        "weight_kg": 130.0,
+        "drag_kgf": 0.005,
+        "rof_rps": 30.83
+      },
+      "27mm Mauser BK27": {
+        "weight_kg": 102.0,
+        "drag_kgf": 0.02,
+        "rof_rps": 28.33
+      },
+      "30 mm Akan m/55": {
+        "weight_kg": 324.0,
+        "drag_kgf": 0.025,
+        "rof_rps": 23.33
+      },
+      "30mm ADEN Mk.4": {
+        "weight_kg": 87.0,
+        "drag_kgf": 0.0,
+        "rof_rps": 20.0
+      },
+      "30mm DEFA 552": {
+        "weight_kg": 81.0,
+        "drag_kgf": 0.0,
+        "rof_rps": 20.0
+      },
+      "30mm DEFA 553": {
+        "weight_kg": 120.0,
+        "drag_kgf": 0.001,
+        "rof_rps": 20.0
+      },
+      "30mm GAU-13/A": {
+        "weight_kg": 624.0,
+        "drag_kgf": 0.3,
+        "rof_rps": 40.0,
+        "shootingCharge": 5.5
+      },
+      "7.62mm M134": {
+        "weight_kg": 111.0,
+        "drag_kgf": 0.3,
+        "rof_rps": 66.66,
+        "shootingCharge": 5.5
+      },
+      "20mm MG 151": {
+        "weight_kg": 84.8,
+        "drag_kgf": 0.3,
+        "rof_rps": 11.66
+      },
+      "30mm Flz Kan 62": {
+        "weight_kg": 160.0,
+        "drag_kgf": 0.0,
+        "rof_rps": 20.0
+      },
+      "7.62mm FN 60.30 machine gun": {
+        "weight_kg": 90.8,
+        "drag_kgf": 0.0,
+        "rof_rps": 15.83
+      },
+      "30mm DEFA 552A": {
+        "weight_kg": 160.0,
+        "drag_kgf": 0.0,
+        "rof_rps": 20.0
+      },
+      "7.62mm PK": {
+        "weight_kg": 27.0,
+        "drag_kgf": 0.0,
+        "rof_rps": 13.3
+      },
+      "8mm Ksp m/22": {
+        "weight_kg": 184.0,
+        "drag_kgf": 0.1488,
+        "rof_rps": 20.0
+      }
+    },
+    "ROCKETS_SINGULAR": {
+      "FFAR Mighty Mouse": {
+        "weight_kg": 8.98,
+        "drag_kgf": 0.0
+      },
+      "hprak m/49": {
+        "weight_kg": 120.0,
+        "drag_kgf": 0.018
+      },
+      "HVAR": {
+        "weight_kg": 62.8,
+        "drag_kgf": 0.018
+      },
+      "AR": {
+        "weight_kg": 37.6,
+        "drag_kgf": 0.016
+      },
+      "Nasser 240": {
+        "weight_kg": 235.0,
+        "drag_kgf": 0.011
+      },
+      "psrak m/49/56": {
+        "weight_kg": 43.0,
+        "drag_kgf": 0.015
+      },
+      "psrak m/49B": {
+        "weight_kg": 42.0,
+        "drag_kgf": 0.01
+      },
+      "RP-3": {
+        "weight_kg": 43.1,
+        "drag_kgf": 0.016
+      },
+      "S-21": {
+        "weight_kg": 117.8,
+        "drag_kgf": 0.011
+      },
+      "S-24": {
+        "weight_kg": 235.0,
+        "drag_kgf": 0.011
+      },
+      "S-24B": {
+        "weight_kg": 235.0,
+        "drag_kgf": 0.011
+      },
+      "S-25O": {
+        "weight_kg": 370.0,
+        "drag_kgf": 0.011
+      },
+      "S-25OFM": {
+        "weight_kg": 367.0,
+        "drag_kgf": 0.011
+      },
+      "srak m/51": {
+        "weight_kg": 64.0,
+        "drag_kgf": 0.011
+      },
+      "Tiny Tim": {
+        "weight_kg": 534.15,
+        "drag_kgf": 0.02
+      },
+      "Wfr.Gr.21": {
+        "weight_kg": 112.0,
+        "drag_kgf": 0.067
+      },
+      "S-13OF": {
+        "weight_kg": 69.0,
+        "drag_kgf": 0.0084
+      },
+      "Type 23 SNEB": {
+        "weight_kg": 5.05,
+        "drag_kgf": 0.003
+      },
+      "Zuni Mk32": {
+        "weight_kg": 57.26,
+        "drag_kgf": 0.0084
+      },
+      "Skyfire-70": {
+        "weight_kg": 11.28,
+        "drag_kgf": 0.00203
+      },
+      "AGR-20A": {
+        "weight_kg": 15.8,
+        "drag_kgf": 0.0
+      },
+      "agr_20b": {
+        "weight_kg": 18.072,
+        "drag_kgf": 0.0
+      },
+      "Type 90-1": {
+        "weight_kg": 14.6,
+        "drag_kgf": 0.003
+      },
+      "Fire Snake": {
+        "weight_kg": 16.8,
+        "drag_kgf": 0.008
+      },
+      "S-5KP": {
+        "weight_kg": 5.01,
+        "drag_kgf": 0.0032
+      },
+      "CRV7": {
+        "weight_kg": 10.57,
+        "drag_kgf": 0.0
+      },
+      "Hydra-70": {
+        "weight_kg": 10.16,
+        "drag_kgf": 0.0
+      },
+      "srak m/57b": {
+        "weight_kg": 7.0,
+        "drag_kgf": 0.0
+      },
+      "Oerlikon": {
+        "weight_kg": 12.84,
+        "drag_kgf": 0.0035
+      },
+      "m/56D": {
+        "weight_kg": 41.0,
+        "drag_kgf": 0.01
+      },
+      "PRN": {
+        "weight_kg": 42.0,
+        "drag_kgf": 0.011
+      },
+      "S-1of": {
+        "weight_kg": 102.4,
+        "drag_kgf": 0.011
+      },
+      "T10 140": {
+        "weight_kg": 28.0,
+        "drag_kgf": 0.012
+      },
+      "T10 151": {
+        "weight_kg": 28.0,
+        "drag_kgf": 0.012
+      },
+      "ARF/8M3": {
+        "weight_kg": 3.8,
+        "drag_kgf": 0.0
+      },
+      "AP Mk II": {
+        "weight_kg": 27.26,
+        "drag_kgf": 0.016
+      },
+      "Semi-Active Laser mode Brimstone": {
+        "weight_kg": 50.0,
+        "drag_kgf": 0.035
+      },
+      "srak m/55": {
+        "weight_kg": 8.0,
+        "drag_kgf": 0.001
+      },
+      "Type 57-1": {
+        "weight_kg": 3.64,
+        "drag_kgf": 0.016
+      },
+      "RP": {
+        "weight_kg": 4.54,
+        "drag_kgf": 0.016
+      },
+      "R4M": {
+        "weight_kg": 3.85,
+        "drag_kgf": 0.01
+      },
+      "TBA ECC": {
+        "weight_kg": 38.8,
+        "drag_kgf": 0.01
+      },
+      "TBA ECC Multi-Dart 100": {
+        "weight_kg": 40.5,
+        "drag_kgf": 0.01
+      },
+      "Type 130-2": {
+        "weight_kg": 46.0,
+        "drag_kgf": 0.01
+      },
+      "Type R80 SURA T-80-P": {
+        "weight_kg": 11.9,
+        "drag_kgf": 0.01
+      },
+      "Type R80 SURA T-80-US": {
+        "weight_kg": 11.0,
+        "drag_kgf": 0.01
+      },
+      "S-8KO": {
+        "weight_kg": 11.3,
+        "drag_kgf": 0.0035
+      },
+      "FFAR Mighty Mouse M439": {
+        "weight_kg": 8.12,
+        "drag_kgf": 0.002
+      },
+      "psrak m/70": {
+        "weight_kg": 47.7,
+        "drag_kgf": 0.01
+      },
+      "FZ49": {
+        "weight_kg": 8.12,
+        "drag_kgf": 0.002
+      },
+      "S-3K": {
+        "weight_kg": 23.5,
+        "drag_kgf": 0.011
+      },
+      "S-5M": {
+        "weight_kg": 3.86,
+        "drag_kgf": 0.0032
+      },
+      "Yasser": {
+        "weight_kg": 760.0,
+        "drag_kgf": 0.011
+      }
+    },
+    "COUNTERMEASURES": {
+      "Flare countermeasures": {
+        "weight_kg": 0.09,
+        "drag_kgf": 0.0
+      },
+      "Large caliber countermeasures": {
+        "weight_kg": 1.0,
+        "drag_kgf": 0.0
+      },
+      "Countermeasures": {
+        "weight_kg": 0.09,
+        "drag_kgf": 0.0
+      },
+      "Chaff countermeasures": {
+        "weight_kg": 0.01,
+        "drag_kgf": 0.0
+      },
+      "Countermeasures (BOL)": {
+        "weight_kg": 0.09,
+        "drag_kgf": 0.0
+      },
+      "Large caliber chaff countermeasures": {
+        "weight_kg": 1.0,
+        "drag_kgf": 0.0
+      }
+    },
+    "INTERNAL_GUN": {
+      "30mm GAU-8/A": {
+        "rof_rps": 70.0,
+        "shootingCharge": 5.5
+      },
+      "30mm Hispano HS 825 L/53": {
+        "rof_rps": 16.6
+      },
+      "27mm Mauser BK27": {
+        "rof_rps": 28.33
+      },
+      "30mm DEFA 552": {
+        "rof_rps": 20.0
+      },
+      "30mm DEFA 553": {
+        "rof_rps": 20.0
+      },
+      "30mm Flz Kan 65": {
+        "rof_rps": 20.0
+      },
+      "20mm Akan m/47С": {
+        "rof_rps": 12.5
+      },
+      "20mm M61A1": {
+        "rof_rps": 100.0,
+        "shootingCharge": 5.5
+      },
+      "20mm JM61A1": {
+        "rof_rps": 100.0,
+        "shootingCharge": 5.5
+      },
+      "20mm Akan m/47B": {
+        "rof_rps": 12.5
+      },
+      "20mm MG 151": {
+        "rof_rps": 11.6
+      },
+      "30mm Hispano HS 825": {
+        "rof_rps": 16.66
+      },
+      "20mm Hispano Mk.V": {
+        "rof_rps": 12.5
+      },
+      "30mm ADEN Mk.4": {
+        "rof_rps": 20.0
+      },
+      "20mm Browning-Colt Mk12 Mod 0": {
+        "rof_rps": 16.66
+      },
+      "23mm Type 23-2K": {
+        "rof_rps": 19.16
+      },
+      "12.7mm Browning": {
+        "rof_rps": 20.0
+      },
+      "20mm ShVAK": {
+        "rof_rps": 13.3
+      },
+      "20mm M39A1": {
+        "rof_rps": 25.0
+      },
+      "20mm Flz Kan 76": {
+        "rof_rps": 28.33
+      },
+      "20mm FMC T-160": {
+        "rof_rps": 25.0
+      },
+      "20mm M24A1": {
+        "rof_rps": 12.5
+      },
+      "20mm Browning-Colt Mk12 Mod 3": {
+        "rof_rps": 16.66
+      },
+      "20mm M3": {
+        "rof_rps": 12.5
+      },
+      "20mm Flz Kan 92": {
+        "rof_rps": 100.0,
+        "shootingCharge": 5.5
+      },
+      "20mm M61A2": {
+        "rof_rps": 100.0,
+        "shootingCharge": 5.5
+      },
+      "12.7mm M3 Browning": {
+        "rof_rps": 20.0
+      },
+      "20mm M39A3": {
+        "rof_rps": 28.33
+      },
+      "20mm M39A2": {
+        "rof_rps": 28.33
+      },
+      "30mm Type 30-1": {
+        "rof_rps": 14.16
+      },
+      "30mm MK 103": {
+        "rof_rps": 2.83
+      },
+      "25mm ADEN 25": {
+        "rof_rps": 30.83
+      },
+      "30mm ADEN": {
+        "rof_rps": 20
+      },
+      "30mm MK 108": {
+        "rof_rps": 10.0
+      },
+      "23mm GSh-23L": {
+        "rof_rps": 56.66
+      },
+      "23mm NR-23": {
+        "rof_rps": 15.0
+      },
+      "23mm Type 23-1": {
+        "rof_rps": 15.0
+      },
+      "30mm Ho-155": {
+        "rof_rps": 8.33
+      },
+      "23mm Type 23-3": {
+        "rof_rps": 56.66
+      },
+      "30mm GSh-30-1": {
+        "rof_rps": 30.0
+      },
+      "30mm Type 30-4": {
+        "rof_rps": 30.0
+      },
+      "30mm DEFA 552A": {
+        "rof_rps": 20.0
+      },
+      "30mm Type 5": {
+        "rof_rps": 8.33
+      },
+      "37mm N-37D": {
+        "rof_rps": 6.66
+      },
+      "20mm M50": {
+        "rof_rps": 12.5
+      },
+      "30mm DEFA 541": {
+        "rof_rps": 20.0
+      },
+      "50mm Mk.214a": {
+        "rof_rps": 2.66
+      },
+      "30mm MG 151": {
+        "rof_rps": 11.66
+      },
+      "20mm Hispano Mk.II": {
+        "rof_rps": 10.0
+      },
+      "23mm NS-23": {
+        "rof_rps": 15.0
+      },
+      "37mm Type 37-1": {
+        "rof_rps": 6.66
+      },
+      "30mm NR-30(e)": {
+        "rof_rps": 14.16
+      },
+      "23mm NS-23K": {
+        "rof_rps": 10.0
+      },
+      "30mm GSh-6-30": {
+        "rof_rps": 83.33
+      },
+      "30mm DEFA 554": {
+        "rof_rps": 30.0
+      },
+      "37mm M10": {
+        "rof_rps": 2.75
+      },
+      "12.7mm M2 Browning": {
+        "rof_rps": 12.5
+      },
+      "30mm NEXTER 30M791": {
+        "rof_rps": 41.66
+      },
+      "30mm Akan m/55": {
+        "rof_rps": 23.33
+      },
+      "20mm Akan m/45": {
+        "rof_rps": 12.0
+      },
+      "12.7mm Akan m/39A": {
+        "rof_rps": 12.83
+      },
+      "20mm Akan m/49": {
+        "rof_rps": 12.83
+      },
+      "20mm Akan m/47C": {
+        "rof_rps": 12.5
+      },
+      "30mm Akan m/75": {
+        "rof_rps": 22.0
+      },
+      "27mm Akan m/85": {
+        "rof_rps": 28.33
+      },
+      "30mm DEFA 551": {
+        "rof_rps": 20.0
+      },
+      "7.62 FN 60.30": {
+        "rof_rps": 15.83
+      },
+      "37mm N-37": {
+        "rof_rps": 6.66
+      },
+      "30mm NR-30": {
+        "rof_rps": 14.16
+      },
+      "30mm GSh-30-2": {
+        "rof_rps": 50.0
+      },
+      "23mm GSh-6-23M": {
+        "rof_rps": 150.0
+      }
+    }
+  }
+}

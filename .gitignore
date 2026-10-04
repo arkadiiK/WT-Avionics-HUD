@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# IDEs
+.idea/
+.vscode/
+
+# PyInstaller build folders
+build/
+dist/
+*.spec
+
+# Local user settings
+data/favorites.json
+data/keybinds.json
+data/launcher_settings.json
+data/user_presets.json
