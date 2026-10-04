@@ -28,11 +28,11 @@
 
 *(Select Nation window)*
 
-![HUD Preview](https://i.imgur.com/WNpltMC.gif)
+![HUD Preview](assets/images/hud_preview.png)
 
 *(HUD Preview)*
 
-![SMS Preview](https://i.imgur.com/HGpBvCo.gif)
+![SMS Preview](assets/images/sms_preview.png)
 
 *(Stores Management System Preview)*
 ## 🛠️ Installation & Usage (For Players)
