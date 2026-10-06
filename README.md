@@ -110,4 +110,4 @@ If you find this HUD useful and want to support further development, you can [bu
 
 ## 📄 License
 
-This project is licensed under the MIT License
+This project is licensed under the GNU GENERAL PUBLIC LICENSE Version 3
