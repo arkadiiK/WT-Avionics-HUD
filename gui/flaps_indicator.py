@@ -2,13 +2,13 @@
 flaps_indicator.py
 ------------------
 GUI component responsible for rendering the aircraft's flaps and slats state.
-Handles API noise through value snapping and provides visual feedback (blinking)
-during mechanical transitions.
+Handles API noise through value snapping and provides visual feedback
+(blinking) during mechanical transitions.
 """
 
+from PySide6.QtCore import QRect, Qt, QTimer
+from PySide6.QtGui import QColor, QFont, QPainter, QPaintEvent, QPen
 from PySide6.QtWidgets import QWidget
-from PySide6.QtGui import QPainter, QColor, QFont, QPen
-from PySide6.QtCore import Qt, QTimer, QRect
 
 import config
 
@@ -16,48 +16,59 @@ import config
 class FlapsIndicator(QWidget):
     """
     Widget that displays the current flap and slat configuration.
-    Features mechanical transition animations (blinking) and dynamic stage rendering based on the aircraft's database profile.
+    Features mechanical transition animations (blinking) and dynamic stage
+    rendering based on the aircraft's database profile.
     """
 
-    def __init__(self, parent=None):
+    BASE_WIDTH = 210
+    BASE_HEIGHT = 140
+
+    def __init__(self, parent: QWidget | None = None) -> None:
         super().__init__(parent)
-        self.setFixedSize(210, 140)
+        self.scale_factor: float = 1.0
+        self.setFixedSize(self.BASE_WIDTH, self.BASE_HEIGHT)
 
         # State variables
-        self.current_flaps_api = 0.0
-        self.config = {}
+        self.current_flaps_api: float = 0.0
+        self.config: dict = {}
 
         # Calculated variables
-        self.normalized_val = 0
-        self.snapped_val = 0  # Value with API jitter removed
-        self.active_stage_key = "0"  # Exact key of the current aerodynamic stage
-        self.is_transit = False
-        self.text_label = ""
-        self.flaps_stages = []
-        self.has_slats = False
+        self.normalized_val: int = 0
+        self.snapped_val: int = 0
+        self.active_stage_key: str = "0"
+        self.is_transit: bool = False
+        self.text_label: str = ""
+        self.flaps_stages: list[int] = []
+        self.has_slats: bool = False
+        self.allow_draw: bool = True
 
         # Timer for blinking
-        self.blink_state = True
+        self.blink_state: bool = True
         self.blink_timer = QTimer(self)
         self.blink_timer.timeout.connect(self.toggle_blink)
         self.blink_timer.start(500)
 
-    def toggle_blink(self):
-        """Handles blinking logic during flap transitions."""
+    def set_scale(self, scale: float) -> None:
+        """Update the widget dimensions and rendering scale factor."""
+        self.scale_factor = scale
+        self.setFixedSize(
+            int(self.BASE_WIDTH * self.scale_factor),
+            int(self.BASE_HEIGHT * self.scale_factor),
+        )
+        self.update()
+
+    def toggle_blink(self) -> None:
+        """Handle blinking logic during flap transitions."""
         if self.is_transit:
             self.blink_state = not self.blink_state
             self.update()
         else:
             self.blink_state = True
 
-    def update_data(self, api_flaps, aircraft_config):
+    def update_data(self, api_flaps: float, aircraft_config: dict) -> None:
         """
-        Parses raw API data against the aircraft's specific flaps configuration.
-        Applies logic to snap floating-point API values to discrete aerodynamic stages.
-
-        Args:
-            api_flaps (float): Raw flap extension percentage from the game API (0.0 to 1.0).
-            aircraft_config (dict): Aerodynamic configuration dict for the current aircraft.
+        Parse raw API data against the aircraft's flaps configuration.
+        Apply logic to snap floating-point API values to discrete stages.
         """
         self.current_flaps_api = api_flaps
         self.config = aircraft_config
@@ -76,13 +87,13 @@ class FlapsIndicator(QWidget):
         self.flaps_stages = []
 
         # FIRST PASS: Collect aerodynamic stages
-        for k, v in self.config.items():
-            val_int = int(k)
+        for key, val in self.config.items():
+            val_int = int(key)
 
-            if v.get("slats", False):
+            if val.get("slats", False):
                 self.has_slats = True
 
-            if val_int > 0 and v.get("flaps", True):
+            if val_int > 0 and val.get("flaps", True):
                 self.flaps_stages.append(val_int)
 
         self.flaps_stages = sorted(self.flaps_stages)
@@ -91,9 +102,13 @@ class FlapsIndicator(QWidget):
         self.is_transit = True
         self.text_label = "FLAPS"
 
-        # Default stage key (if in transit, fallback to the last passed stage)
-        passed_stages = [k for k in sorted_keys if self.normalized_val >= k]
-        self.active_stage_key = str(passed_stages[-1]) if passed_stages else "0"
+        # Default stage key (fallback to the last passed stage)
+        passed_stages = [
+            k for k in sorted_keys if self.normalized_val >= k
+        ]
+        self.active_stage_key = (
+            str(passed_stages[-1]) if passed_stages else "0"
+        )
 
         # SECOND PASS: Determine current stage based on proximity (Snapping)
         for i, stage_int in enumerate(sorted_keys):
@@ -101,7 +116,6 @@ class FlapsIndicator(QWidget):
             stage_data = self.config[stage_str]
             label_str = stage_data.get("label", "")
 
-            # Dynamic tolerance (e.g., F-16 with stages at 99 and 100 requires strict 0.5 tolerance)
             distances = []
             if i > 0:
                 distances.append(abs(stage_int - sorted_keys[i - 1]))
@@ -111,29 +125,34 @@ class FlapsIndicator(QWidget):
             min_dist = min(distances) if distances else 10
             tolerance = 0.5 if min_dist < 5 else 3.0
 
-            # If within tolerance of a known stage, snap the values
             if abs(self.normalized_val - stage_int) <= tolerance:
                 self.is_transit = False
                 self.text_label = label_str
                 self.blink_state = True
-                self.snapped_val = stage_int  # Perfect value without API jitter
-                self.active_stage_key = stage_str  # Exact key
+                self.snapped_val = stage_int
+                self.active_stage_key = stage_str
                 break
 
         self.update()
 
-    def paintEvent(self, event):
-        """Renders the graphical representation of flaps, slats, and transition labels."""
+    def paintEvent(self, event: QPaintEvent) -> None:  # noqa: N802
+        """Render the graphical representation of flaps, slats, and labels."""
         painter = QPainter(self)
         painter.setRenderHint(QPainter.RenderHint.Antialiasing)
 
-        painter.setCompositionMode(QPainter.CompositionMode_Source)
-        painter.fillRect(self.rect(), Qt.transparent)
-        painter.setCompositionMode(QPainter.CompositionMode_SourceOver)
+        painter.setCompositionMode(
+            QPainter.CompositionMode.CompositionMode_Source
+        )
+        painter.fillRect(self.rect(), Qt.GlobalColor.transparent)
+        painter.setCompositionMode(
+            QPainter.CompositionMode.CompositionMode_SourceOver
+        )
 
-        if not getattr(self, 'allow_draw', True) or not self.config:
+        if not getattr(self, "allow_draw", True) or not self.config:
             painter.end()
             return
+
+        painter.scale(self.scale_factor, self.scale_factor)
 
         color_green = QColor(*config.HUD_COLOR)
         color_orange = QColor(*config.FLAPS_TRANSIT_COLOR)
@@ -148,14 +167,20 @@ class FlapsIndicator(QWidget):
         center_y = 42
         start_x = 42
         wing_length = 84
-        painter.drawLine(start_x, center_y, start_x + wing_length, center_y)
+        painter.drawLine(
+            start_x, center_y, start_x + wing_length, center_y
+        )
 
         # Render Slats (Leading Edge - Left Side)
         if self.has_slats:
-            current_slats_active = self.config.get(self.active_stage_key, {}).get("slats", False)
+            current_slats_active = self.config.get(
+                self.active_stage_key, {}
+            ).get("slats", False)
             painter.drawRect(start_x - 21, center_y - 7, 14, 14)
             if current_slats_active:
-                painter.fillRect(start_x - 21, center_y - 7, 14, 14, current_color)
+                painter.fillRect(
+                    start_x - 21, center_y - 7, 14, 14, current_color
+                )
 
         # Render Flaps stages (Trailing Edge - Right Side)
         num_stages = len(self.flaps_stages)
@@ -163,12 +188,18 @@ class FlapsIndicator(QWidget):
             box_width = 14
             spacing = 7
             for i, stage in enumerate(self.flaps_stages):
-                box_x = start_x + wing_length + 7 + (i * (box_width + spacing))
+                box_x = (
+                        start_x
+                        + wing_length
+                        + 7
+                        + (i * (box_width + spacing))
+                )
                 painter.drawRect(box_x, center_y - 7, box_width, 14)
 
-                # Pure threshold comparison based on snapped values
                 if self.snapped_val >= stage:
-                    painter.fillRect(box_x, center_y - 7, box_width, 14, current_color)
+                    painter.fillRect(
+                        box_x, center_y - 7, box_width, 14, current_color
+                    )
 
         # Hide text box if flaps are fully UP and not moving
         if self.text_label == "UP" and not self.is_transit:
@@ -182,10 +213,20 @@ class FlapsIndicator(QWidget):
 
         painter.setPen(Qt.PenStyle.NoPen)
         painter.setBrush(color_bg)
-        painter.drawRect(text_box_x, rect_y, text_box_width, text_box_height)
+        painter.drawRect(
+            text_box_x, rect_y, text_box_width, text_box_height
+        )
 
         if not self.is_transit or self.blink_state:
             painter.setPen(current_color)
-            painter.setFont(QFont(config.FONT_FAMILY, 14, QFont.Weight.Bold))
-            text_rect = QRect(text_box_x, rect_y, text_box_width, text_box_height)
-            painter.drawText(text_rect, Qt.AlignmentFlag.AlignCenter, str(self.text_label))
+            painter.setFont(
+                QFont(config.FONT_FAMILY, 14, QFont.Weight.Bold)
+            )
+            text_rect = QRect(
+                text_box_x, rect_y, text_box_width, text_box_height
+            )
+            painter.drawText(
+                text_rect,
+                Qt.AlignmentFlag.AlignCenter,
+                str(self.text_label),
+            )
