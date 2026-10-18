@@ -1,9 +1,9 @@
-from PySide6 import QtCore
 from PySide6.QtWidgets import (
     QDialog, QVBoxLayout, QPushButton, QLabel
 )
 from PySide6.QtCore import Qt
 from launcher.keybinds_view import KeybindsWindow
+from launcher.hud_layout_view import HudLayoutWindow
 
 
 class SettingsWindow(QDialog):
@@ -31,7 +31,12 @@ class SettingsWindow(QDialog):
         btn_keybinds.clicked.connect(self._open_keybinds)
         layout.addWidget(btn_keybinds)
 
-        btn_telemetry = QPushButton("Telemetry Settings (WIP)")
+        btn_hud_layout = QPushButton("HUD Layout & Scale")
+        btn_hud_layout.setMinimumHeight(40)
+        btn_hud_layout.clicked.connect(self._open_hud_layout)
+        layout.addWidget(btn_hud_layout)
+
+        btn_telemetry = QPushButton("(WIP)")
         btn_telemetry.setMinimumHeight(40)
         btn_telemetry.setEnabled(False)
         layout.addWidget(btn_telemetry)
@@ -45,4 +50,8 @@ class SettingsWindow(QDialog):
 
     def _open_keybinds(self):
         dialog = KeybindsWindow(self)
+        dialog.exec()
+
+    def _open_hud_layout(self):
+        dialog = HudLayoutWindow(self)
         dialog.exec()
