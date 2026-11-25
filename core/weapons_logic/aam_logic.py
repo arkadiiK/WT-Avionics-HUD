@@ -72,66 +72,90 @@ class BaseGuidance:
 class IRGuidance(BaseGuidance):
     """
     Logic for Infrared (IR) guided Air-to-Air Missiles.
-    Reacts to 'tracking', 'searching', and 'seeker' OCR keywords.
+    Enforces a sequential state machine:
+    Activation -> STANDBY ('seeker:on') -> SEARCHING ('seeker: searching') -> LOCKED ('seeker:tracking') -> Fire.
+    Resets cleanly on 'seeker:off' (after seeker activation) or per-stage timeout without triggering a launch.
     """
+
+    STAGE_TIMEOUT = 40.0  # Maximum duration (in seconds) allowed for a single stage
 
     def __init__(self):
         super().__init__()
         self.state_end_time = 0.0
 
     def reset(self):
-        """Resets the IR guidance state machine."""
+        """Resets the IR guidance state machine to its default inactive state."""
         super().reset()
         self.state_end_time = 0.0
 
     def on_fire_press(self, current_time):
-        """Processes fire input for IR missiles."""
-        if super().on_fire_press(current_time):
-            self.state_end_time = 0.0
+        """
+        Handles activation and launch key presses for IR missiles.
+        Unlocks OCR listening on first press; fires only when state is LOCKED.
+        """
+        # 1. Activate seeker and start waiting for 'seeker:on'
+        if self.awaiting_user_activation:
+            self.awaiting_user_activation = False
+            self.current_state = WeaponState.OFF
+            self.state_end_time = current_time + self.STAGE_TIMEOUT
+            print("[INFO] [AAM-IR] Weapon activated by user! Listening to OCR...")
+            return False
+
+        # 2. Fire missile ONLY after reaching LOCKED state
+        if self.current_state == WeaponState.LOCKED:
+            if current_time >= getattr(self, 'cooldown_until', 0.0):
+                self.missile_fired_flag = True
+                self.cooldown_until = current_time + 1.5
+                self.current_state = WeaponState.OFF
+                self.state_end_time = 0.0
+                self.awaiting_user_activation = True
+                print("[INFO] [AAM-IR] Missile fired! Next missile locked until button press.")
+                return True
+
+        return False
 
     def update_ocr_text(self, text, current_time, last_fire_press_time):
-        """Updates IR seeker state based on OCR text parsing."""
+        """Updates IR seeker state sequentially based on OCR text parsing."""
         if self.awaiting_user_activation:
             self.current_state = WeaponState.OFF
             return
 
-        if "tracking" in text:
-            self.current_state = WeaponState.LOCKED
-            self.state_end_time = current_time + 40.0
-        elif "searching" in text:
-            self.current_state = WeaponState.SEARCHING
-            self.state_end_time = current_time + 40.0
-        elif "seeker: on" in text or "seeker" in text:
-            self.current_state = WeaponState.STANDBY
-            self.state_end_time = current_time + 40.0
-        elif "off" in text:
-            if self.current_state == WeaponState.LOCKED:
-                if current_time - last_fire_press_time <= 1.5:
-                    if current_time >= getattr(self, 'cooldown_until', 0.0):
-                        self.missile_fired_flag = True
-                        self.cooldown_until = current_time + 1.5
-                        self.awaiting_user_activation = True
-            self.current_state = WeaponState.OFF
-            self.state_end_time = 0.0
-        elif "waiting" in text:
-            self.current_state = WeaponState.COOLDOWN
-            self.state_end_time = 0.0
-        elif "seeker" not in text:
-            # Handles implicit missile launch when the 'seeker' UI disappears quickly
-            if self.current_state == WeaponState.LOCKED:
-                if current_time - last_fire_press_time <= 1.0:
-                    if current_time >= getattr(self, 'cooldown_until', 0.0):
-                        self.missile_fired_flag = True
-                        self.cooldown_until = current_time + 1.5
-                        self.awaiting_user_activation = True
-                    self.current_state = WeaponState.OFF
-                    self.state_end_time = 0.0
+        # Normalize spacing after colons to match both 'seeker:on' and 'seeker: on'
+        normalized_text = text.replace(": ", ":")
+
+        # Interruption check: reset only if the seeker was already active and then turned off.
+        # Ignoring 'seeker:off' while still in WeaponState.OFF prevents stale HUD frames
+        # right after missile launch from canceling the new activation press.
+        if "seeker:off" in normalized_text:
+            if self.current_state != WeaponState.OFF:
+                print("[INFO] [AAM-IR] Seeker turned off ('seeker:off'). Returning to default state.")
+                self.reset()
+            return
+
+        # Stage 1: Seeker:on -> STANDBY
+        if "seeker:on" in normalized_text:
+            if self.current_state == WeaponState.OFF:
+                self.current_state = WeaponState.STANDBY
+                self.state_end_time = current_time + self.STAGE_TIMEOUT
+
+        # Stage 2: Seeker: Searching -> SEARCHING
+        elif "seeker:searching" in normalized_text:
+            if self.current_state in (WeaponState.OFF, WeaponState.STANDBY):
+                self.current_state = WeaponState.SEARCHING
+                self.state_end_time = current_time + self.STAGE_TIMEOUT
+
+        # Stage 3: Seeker:tracking -> LOCKED
+        elif "seeker:tracking" in normalized_text:
+            if self.current_state in (WeaponState.OFF, WeaponState.STANDBY, WeaponState.SEARCHING):
+                self.current_state = WeaponState.LOCKED
+                self.state_end_time = current_time + self.STAGE_TIMEOUT
 
     def tick(self, current_time):
-        """Handles automatic timeout for the IR seeker."""
-        if self.state_end_time > 0 and current_time > self.state_end_time:
-            self.current_state = WeaponState.OFF
-            self.state_end_time = 0.0
+        """Handles automatic timeout if any single stage takes too long."""
+        if not self.awaiting_user_activation and self.state_end_time > 0.0:
+            if current_time > self.state_end_time:
+                print("[INFO] [AAM-IR] Stage timeout exceeded. Resetting to default state.")
+                self.reset()
 
 
 class RadarGuidance(BaseGuidance):
