@@ -679,6 +679,16 @@
           "DL"
         ]
       },
+      "R-98MR": {
+        "weight_kg": 301,
+        "drag_kgf": 0.018,
+        "guidance": "SARH"
+      },
+      "R-98MT": {
+        "weight_kg": 301,
+        "drag_kgf": 0.018,
+        "guidance": "IR"
+      },
       "RB27": {
         "weight_kg": 117.31,
         "drag_kgf": 0.018,
@@ -1318,7 +1328,7 @@
       }
     },
     "ARM": {
-      "AGM-122" : {
+      "AGM-122": {
         "weight_kg": 95.25,
         "drag_kgf": 0.018,
         "guidance": [
@@ -1522,6 +1532,14 @@
       }
     },
     "BOMBS_LOW_DRAG": {
+      "GCS-1 (Type I)": {
+        "weight_kg": 321.19,
+        "drag_kgf":0.025
+      },
+      "GCS-1 (Type II)": {
+        "weight_kg": 442.71,
+        "drag_kgf": 0.025
+      },
       "100 kg 100-2": {
         "weight_kg": 140.0,
         "drag_kgf": 0.04
@@ -1602,6 +1620,10 @@
         "weight_kg": 120,
         "drag_kgf": 0.04
       },
+      "120 kg m/71 high-drag": {
+        "weight_kg": 120,
+        "drag_kgf": 0.04
+      },
       "1500 kg 1500-2": {
         "weight_kg": 1447,
         "drag_kgf": 0.134
@@ -1678,7 +1700,7 @@
         "weight_kg": 274.4,
         "drag_kgf": 0.07
       },
-      "250 kg MK82" : {
+      "250 kg MK82": {
         "weight_kg": 240.9,
         "drag_kgf": 0.0257
       },
@@ -1865,7 +1887,11 @@
     },
     "BOMBS_HIGH_DRAG": {
       "100 kg OFAB-100-110TU": {
-        "weight_kg": 121,
+        "weight_kg": 120,
+        "drag_kgf": 0.07
+      },
+      "120 kg m/71 high-drag": {
+        "weight_kg": 120,
         "drag_kgf": 0.07
       },
       "1000 lb H.E. M.C. Mk.13 No.117": {
@@ -1935,6 +1961,40 @@
       "H.E. M.C. Mk.1 No.118 540 lb": {
         "weight_kg": 295.0,
         "drag_kgf": 0.0257
+      }
+    },
+    "BOMBS_CLUSTER": {
+      "250-3": {
+        "weight_kg": 277,
+        "drag_kgf": 0.097
+      },
+      "BLG-66": {
+        "weight_kg": 305,
+        "drag_kgf": 0.097
+      },
+      "BL755": {
+        "weight_kg": 272,
+        "drag_kgf": 0.097
+      },
+      "CBU-87/B": {
+        "weight_kg": 431.4,
+        "drag_kgf": 0.097
+      },
+      "250 kg 250-3 cluster": {
+        "weight_kg": 277,
+        "drag_kgf": 0.097
+      },
+      "CBU-58/B": {
+        "weight_kg": 363,
+        "drag_kgf": 0.097
+      },
+      "RBK-500": {
+        "weight_kg": 504,
+        "drag_kgf": 0.097
+      },
+      "RBK-500-PTAB": {
+        "weight_kg": 427,
+        "drag_kgf": 0.097
       }
     },
     "GUIDED_BOMBS": {
@@ -3077,7 +3137,7 @@
       },
       "Drop tank (1150 liters)": {
         "weight_kg": 64.15,
-        "drag_kgf":0.001,
+        "drag_kgf": 0.001,
         "capacity": 920.0
       },
       "Drop tank (1200 liters)": {
@@ -3424,7 +3484,7 @@
         "weight_kg": 158.0,
         "drag_kgf": 0.008
       },
-      "AN/ASQ-213 R5 HARM" : {
+      "AN/ASQ-213 R5 HARM": {
         "weight_kg": 41.0,
         "drag_kgf": 0.007
       },
@@ -3994,6 +4054,9 @@
       },
       "20mm FMC T-160": {
         "rof_rps": 25.0
+      },
+      "20mm HS404 Modele 50": {
+        "rof_rps": 12.5
       },
       "20mm M24A1": {
         "rof_rps": 12.5
