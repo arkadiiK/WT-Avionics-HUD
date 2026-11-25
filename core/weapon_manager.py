@@ -55,7 +55,8 @@ class WeaponManager:
             **_safe_dict(weapon_classes.get("NAPALM")),
             **_safe_dict(weapon_classes.get("TORPEDOES")),
             **self.rockets_pods_db,
-            **_safe_dict(weapon_classes.get("ROCKETS_SINGULAR"))
+            **_safe_dict(weapon_classes.get("ROCKETS_SINGULAR")),
+            **_safe_dict(weapon_classes.get("BOMBS_CLUSTER")),
         }
 
         self.excluded_weapons = self._build_excluded_weapons()
